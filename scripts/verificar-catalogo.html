@@ -1,0 +1,33 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Verificação do catálogo</title><base href="../">
+<script src="data/catalogo.js" defer></script><script src="catalogo.js" defer></script>
+<div class="product-grid"></div><pre id="result">Aguardando dados</pre>
+<script>
+document.addEventListener('DOMContentLoaded', () => { setTimeout(() => {
+    const results = [];
+    function check(condition, message) { if (!condition) throw new Error(message); results.push('OK: ' + message); }
+    try {
+        const all = window.CHAMA_CATALOGO;
+        check(Array.isArray(all) && all.length > 0, 'Dados carregados');
+        check(new Set(all.map(p => p.id)).size === all.length, 'Identificadores únicos');
+        const grid = document.querySelector('.product-grid');
+        check(grid.children.length === Math.min(24, all.length), 'Primeiro bloco limitado a 24 produtos');
+        document.querySelector('.catalog-more').click();
+        check(grid.children.length === Math.min(48, all.length), 'Carregar mais exibe o próximo bloco');
+        const search = document.querySelector('input');
+        search.value = 'produto-inexistente-xyz987654321'; search.dispatchEvent(new Event('input'));
+        check(grid.querySelectorAll('.product-card').length === 0, 'Busca sem resultados');
+        search.value = all[0].id; search.dispatchEvent(new Event('input'));
+        const link = grid.querySelector('.product-info a');
+        check(!!link, 'Busca por código');
+        const url = new URL(link.href);
+        check(url.hostname === 'wa.me' && url.pathname === '/5511947582966', 'WhatsApp correto');
+        check(url.searchParams.get('text').includes(all[0].name), 'Orçamento inclui o nome original');
+        search.value = ''; search.dispatchEvent(new Event('input'));
+        const select = document.querySelector('select');
+        select.value = all[0].category; select.dispatchEvent(new Event('change'));
+        check([...grid.querySelectorAll('.product-category')].every(el => el.textContent === all[0].category), 'Filtro de categoria');
+        check([...grid.querySelectorAll('img')].every(el => el.getAttribute('src').startsWith('assets/images/catalogo/')), 'Imagens locais');
+        document.getElementById('result').textContent = results.join('\n') + '\nPASSOU';
+    } catch (error) { document.getElementById('result').textContent = results.join('\n') + '\nFALHOU: ' + error.message; }
+}, 100); });
+</script></html>

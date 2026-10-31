@@ -1,0 +1,15 @@
+# Arquivos temporários da importação e das verificações locais.
+data/cache/
+data/browser-check/
+data/browser-cdp/
+data/edge-check/
+data/*-dom.html
+data/*.log
+data/render-probe.*
+data/verificacao-visual.html
+.vercel/
+.env
+.env.*
+!.env.example
+*.bak
+data/git-upload/

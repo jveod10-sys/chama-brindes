@@ -1,0 +1,13 @@
+{
+    "documentWidth":  1425,
+    "checkedAt":  "2026-10-31T16:52:48.4444374-03:00",
+    "interactions":  {
+                         "menuOpens":  true,
+                         "menuCloses":  true,
+                         "categoryLink":  true,
+                         "gallery":  true,
+                         "whatsapp":  true
+                     },
+    "viewportWidth":  1440,
+    "cards":  24
+}

@@ -1,0 +1,2556 @@
+{
+    "categories":  [
+                       {
+                           "name":  "Escritório",
+                           "products":  4489
+                       },
+                       {
+                           "name":  "Copos e garrafas",
+                           "products":  3389
+                       },
+                       {
+                           "name":  "Moda e acessórios",
+                           "products":  1226
+                       },
+                       {
+                           "name":  "Cuidados pessoais",
+                           "products":  934
+                       },
+                       {
+                           "name":  "Casa e cozinha",
+                           "products":  989
+                       },
+                       {
+                           "name":  "Tecnologia",
+                           "products":  509
+                       },
+                       {
+                           "name":  "Bolsas e mochilas",
+                           "products":  2597
+                       },
+                       {
+                           "name":  "Outros brindes",
+                           "products":  625
+                       },
+                       {
+                           "name":  "Estojos e embalagens",
+                           "products":  115
+                       },
+                       {
+                           "name":  "Ferramentas",
+                           "products":  124
+                       },
+                       {
+                           "name":  "Kits e conjuntos",
+                           "products":  201
+                       },
+                       {
+                           "name":  "Esporte e lazer",
+                           "products":  58
+                       }
+                   ],
+    "ecological":  1474,
+    "explanation":  "Categorias organizadas pelo nome original. sourceCategory preserva somente a categoria confirmada pela origem. Outros brindes contem nomes ambiguos para revisao.",
+    "needsReview":  [
+                        {
+                            "id":  "15286_SM",
+                            "name":  "BALDE MULTIUSO - BRANCO - 750 ML"
+                        },
+                        {
+                            "id":  "16204_SM",
+                            "name":  "CUTELO 6\" EM MADEIRA / INOX - SPECIAL LINE"
+                        },
+                        {
+                            "id":  "15220_SM",
+                            "name":  "DESCANSA PRATO QUADRADO EM BAMBU - 18 CM"
+                        },
+                        {
+                            "id":  "16146_SM",
+                            "name":  "ESCORREDOR DE PRATOS EM BAMBU QUIOTO"
+                        },
+                        {
+                            "id":  "16215_SM",
+                            "name":  "ESPATULA EM BAMBU UTILITY"
+                        },
+                        {
+                            "id":  "16228_SM",
+                            "name":  "ESPÁTULA MULTIUSO EM BAMBU / INOX - 13,5X11,5CM"
+                        },
+                        {
+                            "id":  "16229_SM",
+                            "name":  "ESPÁTULA MULTIUSO EM MADEIRA / INOX - 13,5X11,5CM"
+                        },
+                        {
+                            "id":  "16218_SM",
+                            "name":  "ESPÁTULA PERFURADA EM BAMBU UTILITY - 30 CM"
+                        },
+                        {
+                            "id":  "16219_SM",
+                            "name":  "ESPÁTULA QUADRADA EM BAMBU UTILITY - 30 CM"
+                        },
+                        {
+                            "id":  "16214_SM",
+                            "name":  "GARFINHO EM BAMBU UTILITY"
+                        },
+                        {
+                            "id":  "16242_SM",
+                            "name":  "GARFOS COM 5 DENTES EM MADEIRA - INOX - 11,5X14,5CM - 2 PÇS"
+                        },
+                        {
+                            "id":  "16196_SM",
+                            "name":  "MOEDOR DE SAL GROSSO E PIMENTA EM BAMBU"
+                        },
+                        {
+                            "id":  "16195_SM",
+                            "name":  "MOEDOR DE SAL GROSSO E PIMENTA EM BAMBU / INOX"
+                        },
+                        {
+                            "id":  "16222_SM",
+                            "name":  "PEGADOR EM BAMBU - UTILITY - 22 CM"
+                        },
+                        {
+                            "id":  "16224_SM",
+                            "name":  "PEGADOR EM BAMBU COM 25 CM SEM CARTELA"
+                        },
+                        {
+                            "id":  "16225_SM",
+                            "name":  "PEGADOR EM MADEIRA / INOX - PRETO - 33CM"
+                        },
+                        {
+                            "id":  "16097_SM",
+                            "name":  "PETIQUEIRA EM BAMBU COM ALÇA - 33X14X2CM"
+                        },
+                        {
+                            "id":  "15257_SM",
+                            "name":  "PORTA CELULAR / SMARTPHONE À PROVA DÁGUA - VERMELHO"
+                        },
+                        {
+                            "id":  "16193_SM",
+                            "name":  "PORTA CONDIMENTOS EM ACRÍLICO/INOX/BAMBU - SALZBURGO - 6 PÇS"
+                        },
+                        {
+                            "id":  "16194_SM",
+                            "name":  "PORTA CONDIMENTOS EM BAMBU - 13 PÇS"
+                        },
+                        {
+                            "id":  "16199_SM",
+                            "name":  "PORTA CONDIMENTOS EM BAMBU COM ACESSÓRIOS"
+                        },
+                        {
+                            "id":  "16200_SM",
+                            "name":  "PORTA CONDIMENTOS EM BAMBU COM ACESSÓRIOS E GAVETAS"
+                        },
+                        {
+                            "id":  "15235_SM",
+                            "name":  "PORTA GUARDANAPOS EM BAMBU CANCUN PEQUENO"
+                        },
+                        {
+                            "id":  "16140_SM",
+                            "name":  "PORTA OBJETOS EM BAMBU COM FORMATO DE CORAÇÃO"
+                        },
+                        {
+                            "id":  "16139_SM",
+                            "name":  "PORTA OBJETOS EM BAMBU COM TAMPA GIRATÓRIA"
+                        },
+                        {
+                            "id":  "16192_SM",
+                            "name":  "PORTA-CONDIMENTOS EM BAMBU SALZBURGO - 7 PÇS"
+                        },
+                        {
+                            "id":  "15236_SM",
+                            "name":  "PORTA-GUARDANAPOS EM BAMBU CANCUN GRANDE"
+                        },
+                        {
+                            "id":  "16142_SM",
+                            "name":  "PORTA-RETRATOS COM CABIDEIROS TRIPLO EM BAMBU GENEBRA"
+                        },
+                        {
+                            "id":  "16170_SM",
+                            "name":  "PRANCHA PARA ALIMENTOS EM BAMBU SUPREME"
+                        },
+                        {
+                            "id":  "16314_SM",
+                            "name":  "TIGELAS EM VIDRO VERDE - 4 PÇS - 0,35 L"
+                        },
+                        {
+                            "id":  "18812_SPOT",
+                            "name":  ""
+                        },
+                        {
+                            "id":  "11253_SPOT",
+                            "name":  "11140. Mosquetão em alumínio"
+                        },
+                        {
+                            "id":  "14323_SPOT",
+                            "name":  "97073. Bastão de selfie"
+                        },
+                        {
+                            "id":  "14324_SPOT",
+                            "name":  "97073. Bastão de selfie"
+                        },
+                        {
+                            "id":  "14325_SPOT",
+                            "name":  "97073. Bastão de selfie"
+                        },
+                        {
+                            "id":  "14326_SPOT",
+                            "name":  "97073. Bastão de selfie"
+                        },
+                        {
+                            "id":  "2035_XBZ",
+                            "name":  "ADAPTADOR P/ MEMÓRIA COB"
+                        },
+                        {
+                            "id":  "973_XBZ",
+                            "name":  "ADAPTADOR UNIVERSAL"
+                        },
+                        {
+                            "id":  "5932_XBZ",
+                            "name":  "ADESIVO DECORATIVO ABAJUR"
+                        },
+                        {
+                            "id":  "5933_XBZ",
+                            "name":  "ADESIVO DECORATIVO BORBOLETA"
+                        },
+                        {
+                            "id":  "1313_XBZ",
+                            "name":  "ADESIVO DECORATIVO BORBOLETAS"
+                        },
+                        {
+                            "id":  "1316_XBZ",
+                            "name":  "ADESIVO DECORATIVO BORBOLETAS"
+                        },
+                        {
+                            "id":  "1321_XBZ",
+                            "name":  "ADESIVO DECORATIVO BORBOLETAS"
+                        },
+                        {
+                            "id":  "1315_XBZ",
+                            "name":  "ADESIVO DECORATIVO DE FADA"
+                        },
+                        {
+                            "id":  "1320_XBZ",
+                            "name":  "ADESIVO DECORATIVO FADA"
+                        },
+                        {
+                            "id":  "1188_XBZ",
+                            "name":  "ADESIVO DECORATIVO GAIOLA PASSARO"
+                        },
+                        {
+                            "id":  "5934_XBZ",
+                            "name":  "ADESIVO DECORATIVO LIBELULA 3D"
+                        },
+                        {
+                            "id":  "1231_XBZ",
+                            "name":  "ADESIVOS DECORATIVOS 3D"
+                        },
+                        {
+                            "id":  "1232_XBZ",
+                            "name":  "ADESIVOS DECORATIVOS 3D"
+                        },
+                        {
+                            "id":  "1233_XBZ",
+                            "name":  "ADESIVOS DECORATIVOS 3D"
+                        },
+                        {
+                            "id":  "1234_XBZ",
+                            "name":  "ADESIVOS DECORATIVOS 3D"
+                        },
+                        {
+                            "id":  "1235_XBZ",
+                            "name":  "ADESIVOS DECORATIVOS 3D"
+                        },
+                        {
+                            "id":  "1317_XBZ",
+                            "name":  "ADESIVOS DECORATIVOS 3D"
+                        },
+                        {
+                            "id":  "1318_XBZ",
+                            "name":  "ADESIVOS DECORATIVOS 3D"
+                        },
+                        {
+                            "id":  "1319_XBZ",
+                            "name":  "ADESIVOS DECORATIVOS 3D"
+                        },
+                        {
+                            "id":  "1322_XBZ",
+                            "name":  "ADESIVOS DECORATIVOS 3D"
+                        },
+                        {
+                            "id":  "12263_SPOT",
+                            "name":  "ALDRIN X. Bateria portátil por indução super-rápido em ABS (10 000 mAh)"
+                        },
+                        {
+                            "id":  "20004_XBZ",
+                            "name":  "ALMOFADA DE PESCOÇO"
+                        },
+                        {
+                            "id":  "20005_XBZ",
+                            "name":  "ALMOFADA DE PESCOÇO"
+                        },
+                        {
+                            "id":  "18632_XBZ",
+                            "name":  "AMPULHETA VIDRO"
+                        },
+                        {
+                            "id":  "18689_XBZ",
+                            "name":  "AMPULHETA VIDRO"
+                        },
+                        {
+                            "id":  "18690_XBZ",
+                            "name":  "AMPULHETA VIDRO"
+                        },
+                        {
+                            "id":  "18691_XBZ",
+                            "name":  "AMPULHETA VIDRO"
+                        },
+                        {
+                            "id":  "18628_XBZ",
+                            "name":  "AMPULHETA VIDRO 3 EM 1"
+                        },
+                        {
+                            "id":  "18625_XBZ",
+                            "name":  "AMPULHETA VIDRO AREIA AZUL 5 MIN"
+                        },
+                        {
+                            "id":  "18623_XBZ",
+                            "name":  "AMPULHETA VIDRO AREIA BRANCA 1 MIN"
+                        },
+                        {
+                            "id":  "18624_XBZ",
+                            "name":  "AMPULHETA VIDRO AREIA ROSA 3 MIN"
+                        },
+                        {
+                            "id":  "18627_XBZ",
+                            "name":  "AMPULHETA VIDRO AREIA ROXA 15 MIN"
+                        },
+                        {
+                            "id":  "18626_XBZ",
+                            "name":  "AMPULHETA VIDRO AREIA VERDE 10 MIN"
+                        },
+                        {
+                            "id":  "10302_XBZ",
+                            "name":  "ARMA PLÁSTICA DE BRINQUEDO"
+                        },
+                        {
+                            "id":  "7120_XBZ",
+                            "name":  "ASPIRADOR DE PÓ 3 EM 1"
+                        },
+                        {
+                            "id":  "13697_SPOT",
+                            "name":  "ATALA. Esteira para grelha em PTFE"
+                        },
+                        {
+                            "id":  "14549_SPOT",
+                            "name":  "AZUR. Guarda-sol em poliéster 300D"
+                        },
+                        {
+                            "id":  "14550_SPOT",
+                            "name":  "AZUR. Guarda-sol em poliéster 300D"
+                        },
+                        {
+                            "id":  "14551_SPOT",
+                            "name":  "AZUR. Guarda-sol em poliéster 300D"
+                        },
+                        {
+                            "id":  "20080_XBZ",
+                            "name":  "BALANÇA DIGITAL MAX.50KG"
+                        },
+                        {
+                            "id":  "20078_XBZ",
+                            "name":  "BALANÇA PORTÁTIL DIGITAL 50KG"
+                        },
+                        {
+                            "id":  "20079_XBZ",
+                            "name":  "BALANÇA PORTÁTIL DIGITAL 50KG"
+                        },
+                        {
+                            "id":  "1809_XBZ",
+                            "name":  "BALDE DE GELO PS 4L"
+                        },
+                        {
+                            "id":  "4225_XBZ",
+                            "name":  "BALDE PLÁSTICO 3 LITROS PARA PIPOCA"
+                        },
+                        {
+                            "id":  "4226_XBZ",
+                            "name":  "BALDE PLÁSTICO 3 LITROS PARA PIPOCA"
+                        },
+                        {
+                            "id":  "14283_SPOT",
+                            "name":  "BALI G / GG. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "14284_SPOT",
+                            "name":  "BALI G / GG. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "14285_SPOT",
+                            "name":  "BALI G / GG. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "14286_SPOT",
+                            "name":  "BALI G / GG. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "14287_SPOT",
+                            "name":  "BALI G / GG. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "14288_SPOT",
+                            "name":  "BALI G / GG. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "14277_SPOT",
+                            "name":  "BALI P / M. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "14278_SPOT",
+                            "name":  "BALI P / M. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "14279_SPOT",
+                            "name":  "BALI P / M. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "14280_SPOT",
+                            "name":  "BALI P / M. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "14281_SPOT",
+                            "name":  "BALI P / M. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "14282_SPOT",
+                            "name":  "BALI P / M. Chinelos com sola totalmente personalizável em sublimação"
+                        },
+                        {
+                            "id":  "13292_SPOT",
+                            "name":  "BELL. Porta cartões para celular em PVC"
+                        },
+                        {
+                            "id":  "13293_SPOT",
+                            "name":  "BELL. Porta cartões para celular em PVC"
+                        },
+                        {
+                            "id":  "13294_SPOT",
+                            "name":  "BELL. Porta cartões para celular em PVC"
+                        },
+                        {
+                            "id":  "13296_SPOT",
+                            "name":  "BELL. Porta cartões para celular em PVC"
+                        },
+                        {
+                            "id":  "10304_XBZ",
+                            "name":  "BICHO DE PELÚCIA MEMES"
+                        },
+                        {
+                            "id":  "14465_SPOT",
+                            "name":  "BIT 1\u00276. Bateria portátil em ABS (1\u0027600 mAh)"
+                        },
+                        {
+                            "id":  "14467_SPOT",
+                            "name":  "BIT 1\u00276. Bateria portátil em ABS (1\u0027600 mAh)"
+                        },
+                        {
+                            "id":  "14382_SPOT",
+                            "name":  "BIT 1. Bateria portátil em ABS (1\u0027200 mAh)"
+                        },
+                        {
+                            "id":  "13343_SPOT",
+                            "name":  "BLOCK. Porta cartões para celular com bloqueio de RFID em PU"
+                        },
+                        {
+                            "id":  "13344_SPOT",
+                            "name":  "BLOCK. Porta cartões para celular com bloqueio de RFID em PU"
+                        },
+                        {
+                            "id":  "13345_SPOT",
+                            "name":  "BLOCK. Porta cartões para celular com bloqueio de RFID em PU"
+                        },
+                        {
+                            "id":  "6318_XBZ",
+                            "name":  "BOLINHA ANTISTRESS PU"
+                        },
+                        {
+                            "id":  "6319_XBZ",
+                            "name":  "BOLINHA ANTISTRESS PU"
+                        },
+                        {
+                            "id":  "6320_XBZ",
+                            "name":  "BOLINHA ANTISTRESS PU"
+                        },
+                        {
+                            "id":  "6321_XBZ",
+                            "name":  "BOLINHA ANTISTRESS PU"
+                        },
+                        {
+                            "id":  "6322_XBZ",
+                            "name":  "BOLINHA ANTISTRESS PU"
+                        },
+                        {
+                            "id":  "10247_XBZ",
+                            "name":  "BRAÇADEIRA ESPORTIVA COURO SINTÉTICO"
+                        },
+                        {
+                            "id":  "10244_XBZ",
+                            "name":  "BRAÇADEIRA ESPORTIVA NEOPRENE"
+                        },
+                        {
+                            "id":  "10245_XBZ",
+                            "name":  "BRAÇADEIRA ESPORTIVA NEOPRENE"
+                        },
+                        {
+                            "id":  "10246_XBZ",
+                            "name":  "BRAÇADEIRA ESPORTIVA NEOPRENE"
+                        },
+                        {
+                            "id":  "9057_XBZ",
+                            "name":  "BRACELETE CAPIVARA PELÚCIA"
+                        },
+                        {
+                            "id":  "13619_SPOT",
+                            "name":  "BRAMBLE. Set de coquetel com 6 peças em aço inox"
+                        },
+                        {
+                            "id":  "17631_SPOT",
+                            "name":  "BURROW. Luvas em poliéster 100% reciclado, com pontas touch"
+                        },
+                        {
+                            "id":  "17804_XBZ",
+                            "name":  "CAMINHÄO DINOSSAURO \"ENGOLE CARRINHOS\""
+                        },
+                        {
+                            "id":  "17387_XBZ",
+                            "name":  "CAMINHÄO DINOSSAURO ARTICULADO \"ENGOLE CARRINHOS\""
+                        },
+                        {
+                            "id":  "17389_XBZ",
+                            "name":  "CAMINHÄO DINOSSAURO RAMPA \"ENGOLE CARRINHOS\""
+                        },
+                        {
+                            "id":  "9037_XBZ",
+                            "name":  "CAMINHÃO MINIATURA"
+                        },
+                        {
+                            "id":  "9041_XBZ",
+                            "name":  "CAMINHÃO MINIATURA"
+                        },
+                        {
+                            "id":  "2626_XBZ",
+                            "name":  "CANETINHAS COLORGEL CARTELA C/ 24"
+                        },
+                        {
+                            "id":  "1087_XBZ",
+                            "name":  "CAPA A PROVA D\u0027AGUA"
+                        },
+                        {
+                            "id":  "1090_XBZ",
+                            "name":  "CAPA A PROVA D\u0027AGUA"
+                        },
+                        {
+                            "id":  "1091_XBZ",
+                            "name":  "CAPA A PROVA D\u0027AGUA"
+                        },
+                        {
+                            "id":  "2038_XBZ",
+                            "name":  "CARCAÇA P/ MEMORIA GIRATORIO BRILHANTE"
+                        },
+                        {
+                            "id":  "1097_XBZ",
+                            "name":  "CARCAÇA P/ MEMORIA TIPO PEN CARD TAM G"
+                        },
+                        {
+                            "id":  "1336_XBZ",
+                            "name":  "CARCAÇA P/ MEMORIA TIPO RETRÁTIL"
+                        },
+                        {
+                            "id":  "14903_XBZ",
+                            "name":  "CARGA PARK METAL"
+                        },
+                        {
+                            "id":  "1036_XBZ",
+                            "name":  "CARGA PARK TINTA AZUL"
+                        },
+                        {
+                            "id":  "16508_XBZ",
+                            "name":  "CARRINHO DE BRINQUEDO COM PISTA"
+                        },
+                        {
+                            "id":  "9013_XBZ",
+                            "name":  "CARRO CAPIVARA ANTIESTRESSE"
+                        },
+                        {
+                            "id":  "8875_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "8877_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "8879_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "8906_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "8907_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "9039_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "9040_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "9144_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "9145_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "9146_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "9330_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "10491_XBZ",
+                            "name":  "CARRO MINIATURA"
+                        },
+                        {
+                            "id":  "9329_XBZ",
+                            "name":  "CARRO MINIATURA FRICÇÃO CAPIVARA"
+                        },
+                        {
+                            "id":  "9331_XBZ",
+                            "name":  "CARRO MINIATURA POLÍCIA"
+                        },
+                        {
+                            "id":  "13333_SPOT",
+                            "name":  "CARVER. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "13334_SPOT",
+                            "name":  "CARVER. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "13335_SPOT",
+                            "name":  "CARVER. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "13336_SPOT",
+                            "name":  "CARVER. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "7587_XBZ",
+                            "name":  "CASCATA LED"
+                        },
+                        {
+                            "id":  "7781_XBZ",
+                            "name":  "CASCATA LED MULTIFUNÇÕES"
+                        },
+                        {
+                            "id":  "7782_XBZ",
+                            "name":  "CASCATA LED MULTIFUNÇÕES"
+                        },
+                        {
+                            "id":  "9855_XBZ",
+                            "name":  "CASCATA LED MULTIFUNÇÕES"
+                        },
+                        {
+                            "id":  "10139_XBZ",
+                            "name":  "CASCATA LED MULTIFUNÇÕES"
+                        },
+                        {
+                            "id":  "9031_XBZ",
+                            "name":  "CATÁLOGO 2025 XBZ BRINDES"
+                        },
+                        {
+                            "id":  "16807_XBZ",
+                            "name":  "CATÁLOGO 2026 XBZ BRINDES"
+                        },
+                        {
+                            "id":  "20096_XBZ",
+                            "name":  "CESTO TRAMADO FIBRA NATURAL"
+                        },
+                        {
+                            "id":  "13580_SPOT",
+                            "name":  "CHARLES. Galheteiro em vidro que contém dois reservatórios 50 mL e 250 mL"
+                        },
+                        {
+                            "id":  "14484_SPOT",
+                            "name":  "CHILL. Antiestresse em espuma PU"
+                        },
+                        {
+                            "id":  "14485_SPOT",
+                            "name":  "CHILL. Antiestresse em espuma PU"
+                        },
+                        {
+                            "id":  "14487_SPOT",
+                            "name":  "CHILL. Antiestresse em espuma PU"
+                        },
+                        {
+                            "id":  "13582_SPOT",
+                            "name":  "CITRIC. Espremedor de frutas"
+                        },
+                        {
+                            "id":  "13583_SPOT",
+                            "name":  "CITRIC. Espremedor de frutas"
+                        },
+                        {
+                            "id":  "13584_SPOT",
+                            "name":  "CITRIC. Espremedor de frutas"
+                        },
+                        {
+                            "id":  "13585_SPOT",
+                            "name":  "CITRIC. Espremedor de frutas"
+                        },
+                        {
+                            "id":  "14357_SPOT",
+                            "name":  "CLERK. Bateria portátil em alumínio 100% reciclado (8 000 mAh)"
+                        },
+                        {
+                            "id":  "14358_SPOT",
+                            "name":  "CLERK. Bateria portátil em alumínio 100% reciclado (8 000 mAh)"
+                        },
+                        {
+                            "id":  "5745_XBZ",
+                            "name":  "CLIMATIZADOR PORTÁTIL"
+                        },
+                        {
+                            "id":  "5746_XBZ",
+                            "name":  "CLIMATIZADOR PORTÁTIL"
+                        },
+                        {
+                            "id":  "5747_XBZ",
+                            "name":  "CLIMATIZADOR PORTÁTIL"
+                        },
+                        {
+                            "id":  "5748_XBZ",
+                            "name":  "CLIMATIZADOR PORTÁTIL"
+                        },
+                        {
+                            "id":  "4213_XBZ",
+                            "name":  "CLIMATIZADOR PORTÁTIL RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "4500_XBZ",
+                            "name":  "CLIMATIZADOR PORTÁTIL RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "4501_XBZ",
+                            "name":  "CLIMATIZADOR PORTÁTIL RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "4502_XBZ",
+                            "name":  "CLIMATIZADOR PORTÁTIL RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "2838_XBZ",
+                            "name":  "CLIPE UNIVERSAL PARA CAMERA DE CELULAR -PRE"
+                        },
+                        {
+                            "id":  "5890_XBZ",
+                            "name":  "COOLER TÉRMICO 62 LITROS"
+                        },
+                        {
+                            "id":  "5891_XBZ",
+                            "name":  "COOLER TÉRMICO 62 LITROS"
+                        },
+                        {
+                            "id":  "5892_XBZ",
+                            "name":  "COOLER TÉRMICO 62 LITROS"
+                        },
+                        {
+                            "id":  "17888_XBZ",
+                            "name":  "CORAÇÃO ANTIESTRESSE PU"
+                        },
+                        {
+                            "id":  "10141_XBZ",
+                            "name":  "CORTINA CASCATA LED"
+                        },
+                        {
+                            "id":  "12238_SPOT",
+                            "name":  "COULOMB 4\u00270. Bateria portátil slim em alumínio 100% reciclado (4\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "12239_SPOT",
+                            "name":  "COULOMB 4\u00270. Bateria portátil slim em alumínio 100% reciclado (4\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "12240_SPOT",
+                            "name":  "COULOMB 4\u00270. Bateria portátil slim em alumínio 100% reciclado (4\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "14769_SPOT",
+                            "name":  "COZY. Manta em tecido polar, 100% poliéster reciclado (100% rPET) (140 g/m²)"
+                        },
+                        {
+                            "id":  "11330_SPOT",
+                            "name":  "CROSS. Punho elástico"
+                        },
+                        {
+                            "id":  "14258_SPOT",
+                            "name":  "DANES. Chinelos de quarto unissex em poliéster"
+                        },
+                        {
+                            "id":  "14259_SPOT",
+                            "name":  "DANES. Chinelos de quarto unissex em poliéster"
+                        },
+                        {
+                            "id":  "14448_SPOT",
+                            "name":  "DAY. Bateria portátil solar com painel solar e LED em ABS (2\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "14552_SPOT",
+                            "name":  "DERING. Guarda-sol em poliéster 170T"
+                        },
+                        {
+                            "id":  "14553_SPOT",
+                            "name":  "DERING. Guarda-sol em poliéster 170T"
+                        },
+                        {
+                            "id":  "14554_SPOT",
+                            "name":  "DERING. Guarda-sol em poliéster 170T"
+                        },
+                        {
+                            "id":  "14555_SPOT",
+                            "name":  "DERING. Guarda-sol em poliéster 170T"
+                        },
+                        {
+                            "id":  "14556_SPOT",
+                            "name":  "DERING. Guarda-sol em poliéster 170T"
+                        },
+                        {
+                            "id":  "14557_SPOT",
+                            "name":  "DERING. Guarda-sol em poliéster 170T"
+                        },
+                        {
+                            "id":  "6788_XBZ",
+                            "name":  "DESCANSO DE PANELA CORTIÇA"
+                        },
+                        {
+                            "id":  "6789_XBZ",
+                            "name":  "DESCANSO DE PANELA CORTIÇA"
+                        },
+                        {
+                            "id":  "18369_XBZ",
+                            "name":  "DESCANSO DE PANELA FELTRO"
+                        },
+                        {
+                            "id":  "18484_XBZ",
+                            "name":  "DESCANSO DE PANELA FELTRO"
+                        },
+                        {
+                            "id":  "8646_XBZ",
+                            "name":  "DESK PAD MICROFIBRA COM LED"
+                        },
+                        {
+                            "id":  "8561_XBZ",
+                            "name":  "DESK PAD POLIÉSTER"
+                        },
+                        {
+                            "id":  "8562_XBZ",
+                            "name":  "DESK PAD POLIÉSTER"
+                        },
+                        {
+                            "id":  "8564_XBZ",
+                            "name":  "DESK PAD POLIÉSTER"
+                        },
+                        {
+                            "id":  "8566_XBZ",
+                            "name":  "DESK PAD POLIÉSTER"
+                        },
+                        {
+                            "id":  "18544_XBZ",
+                            "name":  "DIFUSOR DE AROMAS 30ML AVELÃ"
+                        },
+                        {
+                            "id":  "19055_XBZ",
+                            "name":  "DIFUSOR DE AROMAS 30ML VANILLA CÍTRICA"
+                        },
+                        {
+                            "id":  "14414_SPOT",
+                            "name":  "DIPSTER. Coluna portátil com proteção à prova d\u0027água (IPX7) e autonomia de 11h (1\u0027800 mAh), em ABS 100% reciclado"
+                        },
+                        {
+                            "id":  "14415_SPOT",
+                            "name":  "DIPSTER. Coluna portátil com proteção à prova d\u0027água (IPX7) e autonomia de 11h (1\u0027800 mAh), em ABS 100% reciclado"
+                        },
+                        {
+                            "id":  "14390_SPOT",
+                            "name":  "DOROTHY 10. Bateria portátil em alumínio 100% reciclado (10\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "14387_SPOT",
+                            "name":  "DOROTHY 5. Bateria portátil em alumínio 100% reciclado (5\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "14388_SPOT",
+                            "name":  "DOROTHY 5. Bateria portátil em alumínio 100% reciclado (5\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "16722_XBZ",
+                            "name":  "DRONE JATO DE CONTROLE REMOTO"
+                        },
+                        {
+                            "id":  "14660_SPOT",
+                            "name":  "DYLEAF. Manta em tecido polar (240 g/m²) com acabamento aveludado"
+                        },
+                        {
+                            "id":  "18134_XBZ",
+                            "name":  "ELÁSTICO EXTENSOR"
+                        },
+                        {
+                            "id":  "18135_XBZ",
+                            "name":  "ELÁSTICO EXTENSOR"
+                        },
+                        {
+                            "id":  "18136_XBZ",
+                            "name":  "ELÁSTICO EXTENSOR"
+                        },
+                        {
+                            "id":  "18273_XBZ",
+                            "name":  "ELÁSTICO EXTENSOR"
+                        },
+                        {
+                            "id":  "14449_SPOT",
+                            "name":  "EMLYN. Bateria portátil em alumínio e bateria de lítio (8\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "14450_SPOT",
+                            "name":  "EMLYN. Bateria portátil em alumínio e bateria de lítio (8\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "5279_XBZ",
+                            "name":  "ENFEITE PASSÁRO"
+                        },
+                        {
+                            "id":  "6019_XBZ",
+                            "name":  "ENFEITE PASSÁRO"
+                        },
+                        {
+                            "id":  "6031_XBZ",
+                            "name":  "ENFEITE PASSÁRO"
+                        },
+                        {
+                            "id":  "14936_XBZ",
+                            "name":  "ESPADA"
+                        },
+                        {
+                            "id":  "10301_XBZ",
+                            "name":  "ESPADA DE BRINQUEDO PIXEL"
+                        },
+                        {
+                            "id":  "8307_XBZ",
+                            "name":  "ESTEIRA DE PALHA NATURAL"
+                        },
+                        {
+                            "id":  "8308_XBZ",
+                            "name":  "ESTEIRA DE PALHA NATURAL"
+                        },
+                        {
+                            "id":  "8309_XBZ",
+                            "name":  "ESTEIRA DE PALHA NATURAL"
+                        },
+                        {
+                            "id":  "8310_XBZ",
+                            "name":  "ESTEIRA DE PALHA NATURAL"
+                        },
+                        {
+                            "id":  "8311_XBZ",
+                            "name":  "ESTEIRA DE PALHA NATURAL"
+                        },
+                        {
+                            "id":  "9292_XBZ",
+                            "name":  "ESTEIRA DE PALHA NATURAL"
+                        },
+                        {
+                            "id":  "9583_XBZ",
+                            "name":  "ESTEIRA DE PALHA NATURAL"
+                        },
+                        {
+                            "id":  "9993_XBZ",
+                            "name":  "ESTEIRA DE PALHA NATURAL"
+                        },
+                        {
+                            "id":  "9994_XBZ",
+                            "name":  "ESTEIRA DE PALHA NATURAL"
+                        },
+                        {
+                            "id":  "9995_XBZ",
+                            "name":  "ESTEIRA DE PALHA NATURAL"
+                        },
+                        {
+                            "id":  "14501_SPOT",
+                            "name":  "FINDO. Identificador de bagagem em PP"
+                        },
+                        {
+                            "id":  "14502_SPOT",
+                            "name":  "FINDO. Identificador de bagagem em PP"
+                        },
+                        {
+                            "id":  "14503_SPOT",
+                            "name":  "FINDO. Identificador de bagagem em PP"
+                        },
+                        {
+                            "id":  "10142_XBZ",
+                            "name":  "FIO DE FADA LED"
+                        },
+                        {
+                            "id":  "603_XBZ",
+                            "name":  "FITA MÉTRICA PLÁSTICA DE 1 METRO"
+                        },
+                        {
+                            "id":  "602_XBZ",
+                            "name":  "FITA MÉTRICA PLÁSTICA DE 1,50M"
+                        },
+                        {
+                            "id":  "4929_XBZ",
+                            "name":  "FITA MÉTRICA PLÁSTICA DE 1,50M"
+                        },
+                        {
+                            "id":  "4930_XBZ",
+                            "name":  "FITA MÉTRICA PLÁSTICA DE 1,50M"
+                        },
+                        {
+                            "id":  "4931_XBZ",
+                            "name":  "FITA MÉTRICA PLÁSTICA DE 1,5M"
+                        },
+                        {
+                            "id":  "4932_XBZ",
+                            "name":  "FITA MÉTRICA PLÁSTICA DE 1,5M"
+                        },
+                        {
+                            "id":  "4933_XBZ",
+                            "name":  "FITA MÉTRICA PLÁSTICA DE 1,5M"
+                        },
+                        {
+                            "id":  "4934_XBZ",
+                            "name":  "FITA MÉTRICA PLÁSTICA DE 1,5M"
+                        },
+                        {
+                            "id":  "4935_XBZ",
+                            "name":  "FITA MÉTRICA PLÁSTICA DE 1,5M"
+                        },
+                        {
+                            "id":  "4936_XBZ",
+                            "name":  "FITA MÉTRICA PLÁSTICA DE 1,5M"
+                        },
+                        {
+                            "id":  "4937_XBZ",
+                            "name":  "FITA MÉTRICA PLÁSTICA DE 1,5M"
+                        },
+                        {
+                            "id":  "5077_XBZ",
+                            "name":  "FITA MÉTRICA REDONDA DE 3M"
+                        },
+                        {
+                            "id":  "14662_SPOT",
+                            "name":  "FLEECE. Manta"
+                        },
+                        {
+                            "id":  "14622_SPOT",
+                            "name":  "FLORIAN. Banda elástica refletora em poliéster"
+                        },
+                        {
+                            "id":  "13339_SPOT",
+                            "name":  "FRANCK. Porta cartões para celular com bloqueio de RFID, em PU"
+                        },
+                        {
+                            "id":  "13340_SPOT",
+                            "name":  "FRANCK. Porta cartões para celular com bloqueio de RFID, em PU"
+                        },
+                        {
+                            "id":  "9053_XBZ",
+                            "name":  "FRUTA DE VINIL"
+                        },
+                        {
+                            "id":  "8878_XBZ",
+                            "name":  "FUSCA HERBIE"
+                        },
+                        {
+                            "id":  "445_XBZ",
+                            "name":  "GALÃO DOBRÁVEL 3 LITROS"
+                        },
+                        {
+                            "id":  "449_XBZ",
+                            "name":  "GALÃO DOBRÁVEL 3 LITROS"
+                        },
+                        {
+                            "id":  "450_XBZ",
+                            "name":  "GALÃO DOBRÁVEL 3 LITROS"
+                        },
+                        {
+                            "id":  "447_XBZ",
+                            "name":  "GALÃO DOBRÁVEL 3 LITROS BOLINHAS"
+                        },
+                        {
+                            "id":  "448_XBZ",
+                            "name":  "GALÃO DOBRÁVEL 3 LITROS FLORIDO"
+                        },
+                        {
+                            "id":  "8882_XBZ",
+                            "name":  "GORILA ANTIESTRESSE"
+                        },
+                        {
+                            "id":  "13258_SPOT",
+                            "name":  "GRIPITCH. Chaveiros em metal e em webbing"
+                        },
+                        {
+                            "id":  "13259_SPOT",
+                            "name":  "GRIPITCH. Chaveiros em metal e em webbing"
+                        },
+                        {
+                            "id":  "13260_SPOT",
+                            "name":  "GRIPITCH. Chaveiros em metal e em webbing"
+                        },
+                        {
+                            "id":  "13261_SPOT",
+                            "name":  "GRIPITCH. Chaveiros em metal e em webbing"
+                        },
+                        {
+                            "id":  "13262_SPOT",
+                            "name":  "GRIPITCH. Chaveiros em metal e em webbing"
+                        },
+                        {
+                            "id":  "14525_SPOT",
+                            "name":  "GUARDSUN. Protetor solar para carros em espuma PE e forrado com folha de alumínio"
+                        },
+                        {
+                            "id":  "10569_XBZ",
+                            "name":  "GUINDASTE MINIATURA"
+                        },
+                        {
+                            "id":  "14398_SPOT",
+                            "name":  "GURDON. Bateria portátil em ABS 100% reciclado (30\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "14664_SPOT",
+                            "name":  "HEIDEN. Manta reversível em tecido polar (190 g/m²) acetinado com forro sherpa (225 g/m²)"
+                        },
+                        {
+                            "id":  "14665_SPOT",
+                            "name":  "HEIDEN. Manta reversível em tecido polar (190 g/m²) acetinado com forro sherpa (225 g/m²)"
+                        },
+                        {
+                            "id":  "8873_XBZ",
+                            "name":  "HELICÓPTERO ROBÔ DE BRINQUEDO"
+                        },
+                        {
+                            "id":  "17667_XBZ",
+                            "name":  "HOME SPRAY 60ML VANILLA CÍTRICA"
+                        },
+                        {
+                            "id":  "14443_SPOT",
+                            "name":  "HOOKE. Porta celular em ABS e TPR"
+                        },
+                        {
+                            "id":  "14444_SPOT",
+                            "name":  "HOOKE. Porta celular em ABS e TPR"
+                        },
+                        {
+                            "id":  "14488_SPOT",
+                            "name":  "HOUS. Antiestresse em espuma PU"
+                        },
+                        {
+                            "id":  "6276_XBZ",
+                            "name":  "IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "6277_XBZ",
+                            "name":  "IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "2170_XBZ",
+                            "name":  "ILUMINADOR P/ FOTOS RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "5280_XBZ",
+                            "name":  "IMÃ DECORATIVO BALÃO 6 PEÇAS"
+                        },
+                        {
+                            "id":  "6032_XBZ",
+                            "name":  "IMÃ DECORATIVO NUVEM 6 PEÇAS"
+                        },
+                        {
+                            "id":  "16838_XBZ",
+                            "name":  "JARRA VIDRO BOROSSILICATO 1L"
+                        },
+                        {
+                            "id":  "13882_SPOT",
+                            "name":  "JIMMY. Porta comprimidos com 7 divisórias"
+                        },
+                        {
+                            "id":  "13883_SPOT",
+                            "name":  "JIMMY. Porta comprimidos com 7 divisórias"
+                        },
+                        {
+                            "id":  "9939_XBZ",
+                            "name":  "LANÇADOR BOLHAS DE SABÃO"
+                        },
+                        {
+                            "id":  "12231_SPOT",
+                            "name":  "LEO 2\u00272. Bateria portátil em alumínio (2\u0027200 mAh)"
+                        },
+                        {
+                            "id":  "12232_SPOT",
+                            "name":  "LEO 2\u00272. Bateria portátil em alumínio (2\u0027200 mAh)"
+                        },
+                        {
+                            "id":  "14623_SPOT",
+                            "name":  "LIMARDO. Mosquetão em alumínio"
+                        },
+                        {
+                            "id":  "14624_SPOT",
+                            "name":  "LIMARDO. Mosquetão em alumínio"
+                        },
+                        {
+                            "id":  "14626_SPOT",
+                            "name":  "LIMARDO. Mosquetão em alumínio"
+                        },
+                        {
+                            "id":  "14627_SPOT",
+                            "name":  "LIMARDO. Mosquetão em alumínio"
+                        },
+                        {
+                            "id":  "8869_XBZ",
+                            "name":  "LIVRO DE COLORIR CAPIVARA"
+                        },
+                        {
+                            "id":  "1275_XBZ",
+                            "name":  "LIXEIRINHA AUTOMOTIVA BIDINS LUXO"
+                        },
+                        {
+                            "id":  "1276_XBZ",
+                            "name":  "LIXEIRINHA AUTOMOTIVA BIDINS LUXO"
+                        },
+                        {
+                            "id":  "1277_XBZ",
+                            "name":  "LIXEIRINHA AUTOMOTIVA BIDINS LUXO"
+                        },
+                        {
+                            "id":  "6971_XBZ",
+                            "name":  "LIXOCAR DE PLÁSTICO RECICLÁVEL"
+                        },
+                        {
+                            "id":  "6972_XBZ",
+                            "name":  "LIXOCAR DE PLÁSTICO RECICLÁVEL"
+                        },
+                        {
+                            "id":  "6973_XBZ",
+                            "name":  "LIXOCAR DE PLÁSTICO RECICLÁVEL"
+                        },
+                        {
+                            "id":  "18214_XBZ",
+                            "name":  "LOUSA MÁGICA"
+                        },
+                        {
+                            "id":  "18215_XBZ",
+                            "name":  "LOUSA MÁGICA"
+                        },
+                        {
+                            "id":  "18213_XBZ",
+                            "name":  "LOUSA MÁGICA VAQUINHA"
+                        },
+                        {
+                            "id":  "4623_XBZ",
+                            "name":  "LUMINÁRIA ARTICULÁVEL EM LED RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "8728_XBZ",
+                            "name":  "LUMINÁRIA ARTICULÁVEL EM LED RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "18483_XBZ",
+                            "name":  "LUMINÁRIA ARTICULÁVEL EM LED RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "4621_XBZ",
+                            "name":  "LUMINÁRIA ARTICULÁVEL RECARREGÁVEL 10 LEDS"
+                        },
+                        {
+                            "id":  "17763_XBZ",
+                            "name":  "LUMINÁRIA ARTICULÁVEL RECARREGÁVEL 10 LEDS"
+                        },
+                        {
+                            "id":  "10742_XBZ",
+                            "name":  "LUMINÁRIA DE MESA RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "10743_XBZ",
+                            "name":  "LUMINÁRIA DE MESA RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "16361_XBZ",
+                            "name":  "LUMINÁRIA DE MESA RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "7440_XBZ",
+                            "name":  "LUMINÁRIA LED DE MESA"
+                        },
+                        {
+                            "id":  "8055_XBZ",
+                            "name":  "LUMINÁRIA LED DE MESA"
+                        },
+                        {
+                            "id":  "8056_XBZ",
+                            "name":  "LUMINÁRIA LED DE MESA"
+                        },
+                        {
+                            "id":  "8266_XBZ",
+                            "name":  "LUMINÁRIA LED DE MESA"
+                        },
+                        {
+                            "id":  "4622_XBZ",
+                            "name":  "LUMINÁRIA RETRÁTIL RECARREGÁVEL 14 LEDS"
+                        },
+                        {
+                            "id":  "16899_SPOT",
+                            "name":  "MACABEU. Luva refrigeradora em nylon 190T"
+                        },
+                        {
+                            "id":  "10144_XBZ",
+                            "name":  "MANGUEIRA LED 100M"
+                        },
+                        {
+                            "id":  "10145_XBZ",
+                            "name":  "MANGUEIRA LED 100M"
+                        },
+                        {
+                            "id":  "10146_XBZ",
+                            "name":  "MANGUEIRA LED 100M"
+                        },
+                        {
+                            "id":  "10147_XBZ",
+                            "name":  "MANGUEIRA LED 100M"
+                        },
+                        {
+                            "id":  "5001_XBZ",
+                            "name":  "MÁQUINA DE CORTAR CABELO RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "7138_XBZ",
+                            "name":  "MÁQUINA DE CORTAR CABELO RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "623_XBZ",
+                            "name":  "MARCA PAGINA METAL"
+                        },
+                        {
+                            "id":  "20203_XBZ",
+                            "name":  "MARCA-PÁGINAS INOX"
+                        },
+                        {
+                            "id":  "14785_SPOT",
+                            "name":  "MASON. Panamá em poliéster 100% reciclado"
+                        },
+                        {
+                            "id":  "14786_SPOT",
+                            "name":  "MASON. Panamá em poliéster 100% reciclado"
+                        },
+                        {
+                            "id":  "14787_SPOT",
+                            "name":  "MASON. Panamá em poliéster 100% reciclado"
+                        },
+                        {
+                            "id":  "14298_SPOT",
+                            "name":  "MAUPITI L / XL. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14299_SPOT",
+                            "name":  "MAUPITI L / XL. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14300_SPOT",
+                            "name":  "MAUPITI L / XL. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14301_SPOT",
+                            "name":  "MAUPITI L / XL. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14302_SPOT",
+                            "name":  "MAUPITI L / XL. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14303_SPOT",
+                            "name":  "MAUPITI L / XL. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14304_SPOT",
+                            "name":  "MAUPITI L / XL. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14305_SPOT",
+                            "name":  "MAUPITI L / XL. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14306_SPOT",
+                            "name":  "MAUPITI L / XL. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14289_SPOT",
+                            "name":  "MAUPITI S / M. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14290_SPOT",
+                            "name":  "MAUPITI S / M. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14291_SPOT",
+                            "name":  "MAUPITI S / M. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14292_SPOT",
+                            "name":  "MAUPITI S / M. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14293_SPOT",
+                            "name":  "MAUPITI S / M. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14294_SPOT",
+                            "name":  "MAUPITI S / M. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14295_SPOT",
+                            "name":  "MAUPITI S / M. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14296_SPOT",
+                            "name":  "MAUPITI S / M. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "14297_SPOT",
+                            "name":  "MAUPITI S / M. Chinelos confortáveis com sola em PE e tira em PVC"
+                        },
+                        {
+                            "id":  "1077_XBZ",
+                            "name":  "MEMÓRIA 16 GB"
+                        },
+                        {
+                            "id":  "998_XBZ",
+                            "name":  "MEMÓRIA 4 GB"
+                        },
+                        {
+                            "id":  "2305_XBZ",
+                            "name":  "MEMÓRIA 64 GB"
+                        },
+                        {
+                            "id":  "999_XBZ",
+                            "name":  "MEMÓRIA 8 GB"
+                        },
+                        {
+                            "id":  "9505_XBZ",
+                            "name":  "MESA PORTÁTIL DOBRÁVEL"
+                        },
+                        {
+                            "id":  "9166_XBZ",
+                            "name":  "MICROFONE DINÂMICO"
+                        },
+                        {
+                            "id":  "9167_XBZ",
+                            "name":  "MICROFONE DINÂMICO"
+                        },
+                        {
+                            "id":  "9168_XBZ",
+                            "name":  "MICROFONE DINÂMICO"
+                        },
+                        {
+                            "id":  "1167_XBZ",
+                            "name":  "MINI CARCAÇA P/ PEN CARD REDONDA"
+                        },
+                        {
+                            "id":  "4495_XBZ",
+                            "name":  "MINI CLIMATIZADOR DE AR PORTÁTIL"
+                        },
+                        {
+                            "id":  "18129_XBZ",
+                            "name":  "MINI RALADOR INOX"
+                        },
+                        {
+                            "id":  "3331_XBZ",
+                            "name":  "MINI UMIDIFICADOR COM LED"
+                        },
+                        {
+                            "id":  "3332_XBZ",
+                            "name":  "MINI UMIDIFICADOR COM LED"
+                        },
+                        {
+                            "id":  "4122_XBZ",
+                            "name":  "MINI VENTILADOR"
+                        },
+                        {
+                            "id":  "4123_XBZ",
+                            "name":  "MINI VENTILADOR"
+                        },
+                        {
+                            "id":  "4132_XBZ",
+                            "name":  "MINI VENTILADOR"
+                        },
+                        {
+                            "id":  "4124_XBZ",
+                            "name":  "MINI VENTILADOR MANUAL"
+                        },
+                        {
+                            "id":  "4125_XBZ",
+                            "name":  "MINI VENTILADOR MANUAL"
+                        },
+                        {
+                            "id":  "4126_XBZ",
+                            "name":  "MINI VENTILADOR MANUAL"
+                        },
+                        {
+                            "id":  "4127_XBZ",
+                            "name":  "MINI VENTILADOR MANUAL"
+                        },
+                        {
+                            "id":  "4128_XBZ",
+                            "name":  "MINI VENTILADOR MANUAL"
+                        },
+                        {
+                            "id":  "4133_XBZ",
+                            "name":  "MINI VENTILADOR RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "4134_XBZ",
+                            "name":  "MINI VENTILADOR RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "4135_XBZ",
+                            "name":  "MINI VENTILADOR RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "4136_XBZ",
+                            "name":  "MINI VENTILADOR RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "4137_XBZ",
+                            "name":  "MINI VENTILADOR RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "4138_XBZ",
+                            "name":  "MINI VENTILADOR RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "9425_XBZ",
+                            "name":  "MINI VENTILADOR RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "9427_XBZ",
+                            "name":  "MINI VENTILADOR RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "17813_XBZ",
+                            "name":  "MINI VENTILADOR RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "17814_XBZ",
+                            "name":  "MINI VENTILADOR RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "18104_XBZ",
+                            "name":  "MINI VENTILADOR RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "17385_XBZ",
+                            "name":  "MINIATURA DE EMPILHADEIRA"
+                        },
+                        {
+                            "id":  "8876_XBZ",
+                            "name":  "MINIATURA KOMBI"
+                        },
+                        {
+                            "id":  "8904_XBZ",
+                            "name":  "MINIATURA MOTO"
+                        },
+                        {
+                            "id":  "4493_XBZ",
+                            "name":  "MISTURADOR ELÉTRICO PORTÁTIL"
+                        },
+                        {
+                            "id":  "4494_XBZ",
+                            "name":  "MISTURADOR ELÉTRICO PORTÁTIL"
+                        },
+                        {
+                            "id":  "11018_XBZ",
+                            "name":  "MISTURADOR ELÉTRICO PORTÁTIL"
+                        },
+                        {
+                            "id":  "20095_XBZ",
+                            "name":  "MISTURADOR ELÉTRICO PORTÁTIL"
+                        },
+                        {
+                            "id":  "17259_XBZ",
+                            "name":  "MISTURADOR ELÉTRICO RECARREGÁVEL"
+                        },
+                        {
+                            "id":  "1025_XBZ",
+                            "name":  "MOEDOR DE PIMENTA MADEIRA"
+                        },
+                        {
+                            "id":  "20195_XBZ",
+                            "name":  "MOSQUETÃO METAL"
+                        },
+                        {
+                            "id":  "20196_XBZ",
+                            "name":  "MOSQUETÃO METAL"
+                        },
+                        {
+                            "id":  "10430_XBZ",
+                            "name":  "MOTO ESPORTIVA MINIATURA"
+                        },
+                        {
+                            "id":  "13341_SPOT",
+                            "name":  "MULLER. Porta cartões com bloqueio RFID"
+                        },
+                        {
+                            "id":  "13342_SPOT",
+                            "name":  "MULLER. Porta cartões com bloqueio RFID"
+                        },
+                        {
+                            "id":  "13891_SPOT",
+                            "name":  "NERO. Porta comprimidos com 2 divisórias"
+                        },
+                        {
+                            "id":  "14361_SPOT",
+                            "name":  "NESBIT II. Luminária de mesa portátil em ABS 65% reciclado com 140 lumen"
+                        },
+                        {
+                            "id":  "14362_SPOT",
+                            "name":  "NESBIT II. Luminária de mesa portátil em ABS 65% reciclado com 140 lumen"
+                        },
+                        {
+                            "id":  "12209_SPOT",
+                            "name":  "NEZBIT. Luminária de mesa portátil em ABS e com LED COB"
+                        },
+                        {
+                            "id":  "18846_SPOT",
+                            "name":  "NICOLAUS. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "18847_SPOT",
+                            "name":  "NICOLAUS. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "1198_XBZ",
+                            "name":  "ORGANIZADOR DE COSMETICOS ACRILICO"
+                        },
+                        {
+                            "id":  "7535_XBZ",
+                            "name":  "ORGANIZADOR DE MESA"
+                        },
+                        {
+                            "id":  "7536_XBZ",
+                            "name":  "ORGANIZADOR DE MESA"
+                        },
+                        {
+                            "id":  "7537_XBZ",
+                            "name":  "ORGANIZADOR DE MESA"
+                        },
+                        {
+                            "id":  "7963_XBZ",
+                            "name":  "ORGANIZADOR DE PINCÉIS"
+                        },
+                        {
+                            "id":  "7608_XBZ",
+                            "name":  "ORGANIZADOR PLÁSTICO"
+                        },
+                        {
+                            "id":  "7609_XBZ",
+                            "name":  "ORGANIZADOR PLÁSTICO"
+                        },
+                        {
+                            "id":  "17876_XBZ",
+                            "name":  "PAR DE MUNHEQUEIRAS ESPORTIVAS"
+                        },
+                        {
+                            "id":  "17877_XBZ",
+                            "name":  "PAR DE MUNHEQUEIRAS ESPORTIVAS"
+                        },
+                        {
+                            "id":  "17878_XBZ",
+                            "name":  "PAR DE MUNHEQUEIRAS ESPORTIVAS"
+                        },
+                        {
+                            "id":  "17879_XBZ",
+                            "name":  "PAR DE MUNHEQUEIRAS ESPORTIVAS"
+                        },
+                        {
+                            "id":  "17880_XBZ",
+                            "name":  "PAR DE MUNHEQUEIRAS ESPORTIVAS"
+                        },
+                        {
+                            "id":  "17881_XBZ",
+                            "name":  "PAR DE MUNHEQUEIRAS ESPORTIVAS"
+                        },
+                        {
+                            "id":  "14545_SPOT",
+                            "name":  "PARANA. Guarda-sol reclinável em 210T com forro prateado"
+                        },
+                        {
+                            "id":  "14546_SPOT",
+                            "name":  "PARANA. Guarda-sol reclinável em 210T com forro prateado"
+                        },
+                        {
+                            "id":  "14547_SPOT",
+                            "name":  "PARANA. Guarda-sol reclinável em 210T com forro prateado"
+                        },
+                        {
+                            "id":  "9052_XBZ",
+                            "name":  "PATO ANTIESTRESSE"
+                        },
+                        {
+                            "id":  "13592_SPOT",
+                            "name":  "PEPPER. Saladeira em bambu em formato quadrado"
+                        },
+                        {
+                            "id":  "8836_XBZ",
+                            "name":  "PINCEL DE MAQUAGEM"
+                        },
+                        {
+                            "id":  "7369_XBZ",
+                            "name":  "PINCEL DE MAQUIAGEM"
+                        },
+                        {
+                            "id":  "8673_XBZ",
+                            "name":  "PINCEL DE MAQUIAGEM"
+                        },
+                        {
+                            "id":  "8674_XBZ",
+                            "name":  "PINCEL DE MAQUIAGEM"
+                        },
+                        {
+                            "id":  "8676_XBZ",
+                            "name":  "PINCEL DE MAQUIAGEM"
+                        },
+                        {
+                            "id":  "8457_XBZ",
+                            "name":  "PINCEL DE MAQUIAGEM PARA PÓ"
+                        },
+                        {
+                            "id":  "8677_XBZ",
+                            "name":  "PINCEL DE MAQUIAGEM PARA PÓ"
+                        },
+                        {
+                            "id":  "16482_XBZ",
+                            "name":  "PINTINHO ARTICULADO DE BRINQUEDO"
+                        },
+                        {
+                            "id":  "7775_XBZ",
+                            "name":  "PISCA PISCA -AZUL"
+                        },
+                        {
+                            "id":  "7586_XBZ",
+                            "name":  "PISCA PISCA COLORIDO"
+                        },
+                        {
+                            "id":  "7777_XBZ",
+                            "name":  "PISCA PISCA ROSA"
+                        },
+                        {
+                            "id":  "10137_XBZ",
+                            "name":  "PISCA-PISCA 100L 127V FRIO"
+                        },
+                        {
+                            "id":  "10138_XBZ",
+                            "name":  "PISCA-PISCA 100L 127V QUENTE"
+                        },
+                        {
+                            "id":  "386_ASIA",
+                            "name":  "Placa de inox"
+                        },
+                        {
+                            "id":  "387_ASIA",
+                            "name":  "Placa de inox"
+                        },
+                        {
+                            "id":  "388_ASIA",
+                            "name":  "Placa de metal"
+                        },
+                        {
+                            "id":  "389_ASIA",
+                            "name":  "Placa de metal"
+                        },
+                        {
+                            "id":  "16957_ASIA",
+                            "name":  "Placa de metal"
+                        },
+                        {
+                            "id":  "18189_ASIA",
+                            "name":  "Placa de Metal"
+                        },
+                        {
+                            "id":  "3199_XBZ",
+                            "name":  "PLAQUINHA EM METAL P/ GRAVAÇÃO"
+                        },
+                        {
+                            "id":  "3200_XBZ",
+                            "name":  "PLAQUINHA EM METAL P/ GRAVAÇÃO"
+                        },
+                        {
+                            "id":  "3201_XBZ",
+                            "name":  "PLAQUINHA EM METAL P/ GRAVAÇÃO"
+                        },
+                        {
+                            "id":  "3202_XBZ",
+                            "name":  "PLAQUINHA EM METAL P/ GRAVAÇÃO"
+                        },
+                        {
+                            "id":  "3504_XBZ",
+                            "name":  "PLAQUINHA METÁLICA"
+                        },
+                        {
+                            "id":  "3505_XBZ",
+                            "name":  "PLAQUINHA METÁLICA"
+                        },
+                        {
+                            "id":  "10849_XBZ",
+                            "name":  "PLAQUINHA METÁLICA"
+                        },
+                        {
+                            "id":  "1664_XBZ",
+                            "name":  "PLAQUINHA P/ GRAVAÇÃO EM METAL"
+                        },
+                        {
+                            "id":  "6071_XBZ",
+                            "name":  "PLAQUINHA P/ GRAVAÇÃO EM METAL"
+                        },
+                        {
+                            "id":  "17952_XBZ",
+                            "name":  "PLAQUINHA P/ GRAVAÇÃO EM METAL"
+                        },
+                        {
+                            "id":  "1622_XBZ",
+                            "name":  "POP SOCKET"
+                        },
+                        {
+                            "id":  "1623_XBZ",
+                            "name":  "POP SOCKET"
+                        },
+                        {
+                            "id":  "2746_XBZ",
+                            "name":  "POP SOCKET"
+                        },
+                        {
+                            "id":  "3378_XBZ",
+                            "name":  "POP SOCKET"
+                        },
+                        {
+                            "id":  "13298_SPOT",
+                            "name":  "POPPY. Porta cartões em PU com bloqueio RFID"
+                        },
+                        {
+                            "id":  "13299_SPOT",
+                            "name":  "POPPY. Porta cartões em PU com bloqueio RFID"
+                        },
+                        {
+                            "id":  "3280_XBZ",
+                            "name":  "PORTA COMPRIMIDO 4 CAVIDADES"
+                        },
+                        {
+                            "id":  "3281_XBZ",
+                            "name":  "PORTA COMPRIMIDO 4 CAVIDADES"
+                        },
+                        {
+                            "id":  "8096_XBZ",
+                            "name":  "PORTA COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8097_XBZ",
+                            "name":  "PORTA COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8099_XBZ",
+                            "name":  "PORTA COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8425_XBZ",
+                            "name":  "PORTA COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8426_XBZ",
+                            "name":  "PORTA COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8427_XBZ",
+                            "name":  "PORTA COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8431_XBZ",
+                            "name":  "PORTA COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8432_XBZ",
+                            "name":  "PORTA COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8433_XBZ",
+                            "name":  "PORTA COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8434_XBZ",
+                            "name":  "PORTA COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8435_XBZ",
+                            "name":  "PORTA COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8100_XBZ",
+                            "name":  "PORTA COMPRIMIDOS SEMANAL PLÁSTICO"
+                        },
+                        {
+                            "id":  "8428_XBZ",
+                            "name":  "PORTA COMPRIMIDOS SEMANAL PLÁSTICO"
+                        },
+                        {
+                            "id":  "8429_XBZ",
+                            "name":  "PORTA COMPRIMIDOS SEMANAL PLÁSTICO"
+                        },
+                        {
+                            "id":  "16714_ASIA",
+                            "name":  "Porta Notebook"
+                        },
+                        {
+                            "id":  "16823_ASIA",
+                            "name":  "Porta Notebook"
+                        },
+                        {
+                            "id":  "19830_ASIA",
+                            "name":  "Porta Notebook"
+                        },
+                        {
+                            "id":  "19831_ASIA",
+                            "name":  "Porta Notebook"
+                        },
+                        {
+                            "id":  "391_ASIA",
+                            "name":  "Porta Objetos"
+                        },
+                        {
+                            "id":  "5601_XBZ",
+                            "name":  "PORTA OBJETOS"
+                        },
+                        {
+                            "id":  "5602_XBZ",
+                            "name":  "PORTA OBJETOS"
+                        },
+                        {
+                            "id":  "6236_XBZ",
+                            "name":  "PORTA OBJETOS"
+                        },
+                        {
+                            "id":  "6237_XBZ",
+                            "name":  "PORTA OBJETOS"
+                        },
+                        {
+                            "id":  "19832_ASIA",
+                            "name":  "Porta Objetos"
+                        },
+                        {
+                            "id":  "19833_ASIA",
+                            "name":  "Porta Objetos"
+                        },
+                        {
+                            "id":  "392_ASIA",
+                            "name":  "Porta objetos/smartphone em feltro e bambu"
+                        },
+                        {
+                            "id":  "1870_XBZ",
+                            "name":  "PORTA PASSAPORTE BIDINS"
+                        },
+                        {
+                            "id":  "2674_XBZ",
+                            "name":  "PORTA PASSAPORTE BIDINS"
+                        },
+                        {
+                            "id":  "7207_XBZ",
+                            "name":  "PORTA PASSAPORTE EM COURO SINTÉTICO"
+                        },
+                        {
+                            "id":  "7208_XBZ",
+                            "name":  "PORTA PASSAPORTE EM COURO SINTÉTICO"
+                        },
+                        {
+                            "id":  "7209_XBZ",
+                            "name":  "PORTA PASSAPORTE EM COURO SINTÉTICO"
+                        },
+                        {
+                            "id":  "7210_XBZ",
+                            "name":  "PORTA PASSAPORTE EM COURO SINTÉTICO"
+                        },
+                        {
+                            "id":  "7211_XBZ",
+                            "name":  "PORTA PASSAPORTE EM COURO SINTÉTICO"
+                        },
+                        {
+                            "id":  "7212_XBZ",
+                            "name":  "PORTA PASSAPORTE EM COURO SINTÉTICO"
+                        },
+                        {
+                            "id":  "7213_XBZ",
+                            "name":  "PORTA PASSAPORTE EM COURO SINTÉTICO"
+                        },
+                        {
+                            "id":  "393_ASIA",
+                            "name":  "Porta Tênis em Poliéster 300D"
+                        },
+                        {
+                            "id":  "19834_ASIA",
+                            "name":  "Porta Tênis em Poliéster 300D"
+                        },
+                        {
+                            "id":  "4603_XBZ",
+                            "name":  "PORTA WHISKY 7OZ"
+                        },
+                        {
+                            "id":  "444_XBZ",
+                            "name":  "PORTA WHISKY INOX 7 OZ"
+                        },
+                        {
+                            "id":  "8098_XBZ",
+                            "name":  "PORTA-COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8101_XBZ",
+                            "name":  "PORTA-COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8440_XBZ",
+                            "name":  "PORTA-COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8441_XBZ",
+                            "name":  "PORTA-COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8442_XBZ",
+                            "name":  "PORTA-COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8443_XBZ",
+                            "name":  "PORTA-COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "8444_XBZ",
+                            "name":  "PORTA-COMPRIMIDOS PLÁSTICO"
+                        },
+                        {
+                            "id":  "1355_XBZ",
+                            "name":  "PORTA-COMPRIMIDOS SEMANAL"
+                        },
+                        {
+                            "id":  "3002_XBZ",
+                            "name":  "PORTA-COMPRIMIDOS SEMANAL"
+                        },
+                        {
+                            "id":  "11081_XBZ",
+                            "name":  "PORTA-PASSAPORTE PU"
+                        },
+                        {
+                            "id":  "11082_XBZ",
+                            "name":  "PORTA-PASSAPORTE PU"
+                        },
+                        {
+                            "id":  "11083_XBZ",
+                            "name":  "PORTA-PASSAPORTE PU"
+                        },
+                        {
+                            "id":  "11084_XBZ",
+                            "name":  "PORTA-PASSAPORTE PU"
+                        },
+                        {
+                            "id":  "11085_XBZ",
+                            "name":  "PORTA-PASSAPORTE PU"
+                        },
+                        {
+                            "id":  "9898_XBZ",
+                            "name":  "PORTA-PRATOS COURO SINTÉTICO"
+                        },
+                        {
+                            "id":  "9896_XBZ",
+                            "name":  "PORTA-PRATOS POLIÉSTER"
+                        },
+                        {
+                            "id":  "9897_XBZ",
+                            "name":  "PORTA-PRATOS POLIÉSTER"
+                        },
+                        {
+                            "id":  "9895_XBZ",
+                            "name":  "PORTA-TÊNIS POLIÉSTER"
+                        },
+                        {
+                            "id":  "9946_XBZ",
+                            "name":  "PORTA-TÊNIS POLIÉSTER"
+                        },
+                        {
+                            "id":  "9947_XBZ",
+                            "name":  "PORTA-TÊNIS POLIÉSTER"
+                        },
+                        {
+                            "id":  "10037_XBZ",
+                            "name":  "PORTA-TÊNIS POLIÉSTER PVC MESCLA"
+                        },
+                        {
+                            "id":  "10038_XBZ",
+                            "name":  "PORTA-TÊNIS POLIÉSTER PVC MESCLA"
+                        },
+                        {
+                            "id":  "10095_XBZ",
+                            "name":  "PORTA-TÊNIS POLIÉSTER PVC MESCLA"
+                        },
+                        {
+                            "id":  "1637_XBZ",
+                            "name":  "PROCESSADOR DE ALIMENTOS MANUAL"
+                        },
+                        {
+                            "id":  "2070_XBZ",
+                            "name":  "PROTETOR P/ CAMERA DE CELULAR (CAM COVER)"
+                        },
+                        {
+                            "id":  "9227_XBZ",
+                            "name":  "PROTETOR SOLAR DE PARA-BRISA"
+                        },
+                        {
+                            "id":  "9228_XBZ",
+                            "name":  "PROTETOR SOLAR DE PARA-BRISA"
+                        },
+                        {
+                            "id":  "630_XBZ",
+                            "name":  "RISQUE RABISQUE COURO"
+                        },
+                        {
+                            "id":  "9579_XBZ",
+                            "name":  "RISQUE-RABISQUE"
+                        },
+                        {
+                            "id":  "10777_XBZ",
+                            "name":  "RISQUE-RABISQUE"
+                        },
+                        {
+                            "id":  "13884_SPOT",
+                            "name":  "ROBERTS. Porta comprimidos com 4 divisórias"
+                        },
+                        {
+                            "id":  "13886_SPOT",
+                            "name":  "ROBERTS. Porta comprimidos com 4 divisórias"
+                        },
+                        {
+                            "id":  "13888_SPOT",
+                            "name":  "ROBERTS. Porta comprimidos com 4 divisórias"
+                        },
+                        {
+                            "id":  "13889_SPOT",
+                            "name":  "ROBERTS. Porta comprimidos com 4 divisórias"
+                        },
+                        {
+                            "id":  "13903_SPOT",
+                            "name":  "SHANDY. Porta tachos dobrável em bambu"
+                        },
+                        {
+                            "id":  "13326_SPOT",
+                            "name":  "SHELLEY. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "13327_SPOT",
+                            "name":  "SHELLEY. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "13328_SPOT",
+                            "name":  "SHELLEY. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "13329_SPOT",
+                            "name":  "SHELLEY. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "13330_SPOT",
+                            "name":  "SHELLEY. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "13332_SPOT",
+                            "name":  "SHELLEY. Porta cartões para celular em silicone"
+                        },
+                        {
+                            "id":  "13766_SPOT",
+                            "name":  "SNEAD. Bule em vidro borossilicato com infusor em aço inox (750 mL)"
+                        },
+                        {
+                            "id":  "7123_XBZ",
+                            "name":  "SPRAY CULINÁRIO 100ML"
+                        },
+                        {
+                            "id":  "1829_XBZ",
+                            "name":  "SPRAY HIGIENIZADOR"
+                        },
+                        {
+                            "id":  "1830_XBZ",
+                            "name":  "SPRAY HIGIENIZADOR"
+                        },
+                        {
+                            "id":  "1831_XBZ",
+                            "name":  "SPRAY HIGIENIZADOR"
+                        },
+                        {
+                            "id":  "2638_XBZ",
+                            "name":  "SPRAY HIGIENIZADOR 9ML"
+                        },
+                        {
+                            "id":  "2639_XBZ",
+                            "name":  "SPRAY HIGIENIZADOR 9ML"
+                        },
+                        {
+                            "id":  "2640_XBZ",
+                            "name":  "SPRAY HIGIENIZADOR 9ML"
+                        },
+                        {
+                            "id":  "2641_XBZ",
+                            "name":  "SPRAY HIGIENIZADOR 9ML"
+                        },
+                        {
+                            "id":  "2893_XBZ",
+                            "name":  "SPRAY HIGIENIZADOR 9ML"
+                        },
+                        {
+                            "id":  "16319_XBZ",
+                            "name":  "SQUISHY BOLO"
+                        },
+                        {
+                            "id":  "18525_XBZ",
+                            "name":  "SQUISHY COLECIONÁVEL"
+                        },
+                        {
+                            "id":  "18526_XBZ",
+                            "name":  "SQUISHY COLECIONÁVEL"
+                        },
+                        {
+                            "id":  "18932_XBZ",
+                            "name":  "SQUISHY COLECIONÁVEL"
+                        },
+                        {
+                            "id":  "18938_XBZ",
+                            "name":  "SQUISHY COLECIONÁVEL"
+                        },
+                        {
+                            "id":  "18937_XBZ",
+                            "name":  "SQUISHY CUBO"
+                        },
+                        {
+                            "id":  "18933_XBZ",
+                            "name":  "SQUISHY CUPCAKE"
+                        },
+                        {
+                            "id":  "18931_XBZ",
+                            "name":  "SQUISHY MANTEIGA"
+                        },
+                        {
+                            "id":  "18934_XBZ",
+                            "name":  "SQUISHY MELANCIA"
+                        },
+                        {
+                            "id":  "18936_XBZ",
+                            "name":  "SQUISHY OVELHA"
+                        },
+                        {
+                            "id":  "13881_SPOT",
+                            "name":  "STILLER. Porta comprimidos com 3 divisórias"
+                        },
+                        {
+                            "id":  "14648_SPOT",
+                            "name":  "SULENA. Manta em tecido polar (180 g/m²)"
+                        },
+                        {
+                            "id":  "14649_SPOT",
+                            "name":  "SULENA. Manta em tecido polar (180 g/m²)"
+                        },
+                        {
+                            "id":  "14650_SPOT",
+                            "name":  "SULENA. Manta em tecido polar (180 g/m²)"
+                        },
+                        {
+                            "id":  "14651_SPOT",
+                            "name":  "SULENA. Manta em tecido polar (180 g/m²)"
+                        },
+                        {
+                            "id":  "14524_SPOT",
+                            "name":  "SUNSHADE. Protetor solar para carros em espuma de PE e forrado com 1 folha de alumínio"
+                        },
+                        {
+                            "id":  "8202_XBZ",
+                            "name":  "SUPORTE ARTICULADO GIRATÓRIO DE METAL PARA NOTEBOOKS"
+                        },
+                        {
+                            "id":  "2258_XBZ",
+                            "name":  "SUPORTE VEICULAR"
+                        },
+                        {
+                            "id":  "6209_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "6210_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "11092_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "17353_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "17354_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "17355_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "17356_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "17357_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "17682_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "17683_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "17684_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "17686_XBZ",
+                            "name":  "TAG IDENTIFICADOR DE BAGAGEM"
+                        },
+                        {
+                            "id":  "13541_SPOT",
+                            "name":  "TAZY. Porta cartões em kraft reciclado com elástico"
+                        },
+                        {
+                            "id":  "13542_SPOT",
+                            "name":  "TAZY. Porta cartões em kraft reciclado com elástico"
+                        },
+                        {
+                            "id":  "13543_SPOT",
+                            "name":  "TAZY. Porta cartões em kraft reciclado com elástico"
+                        },
+                        {
+                            "id":  "13544_SPOT",
+                            "name":  "TAZY. Porta cartões em kraft reciclado com elástico"
+                        },
+                        {
+                            "id":  "18159_XBZ",
+                            "name":  "TERMÔMETRO DIGITAL"
+                        },
+                        {
+                            "id":  "18166_XBZ",
+                            "name":  "TERMÔMETRO DIGITAL"
+                        },
+                        {
+                            "id":  "18167_XBZ",
+                            "name":  "TERMÔMETRO DIGITAL"
+                        },
+                        {
+                            "id":  "14617_SPOT",
+                            "name":  "THIEM. Colete de alta visibilidade em poliéster"
+                        },
+                        {
+                            "id":  "14618_SPOT",
+                            "name":  "THIEM. Colete de alta visibilidade em poliéster"
+                        },
+                        {
+                            "id":  "14653_SPOT",
+                            "name":  "THORPE. Manta em tecido polar (180 g/m²) com alça removível"
+                        },
+                        {
+                            "id":  "14654_SPOT",
+                            "name":  "THORPE. Manta em tecido polar (180 g/m²) com alça removível"
+                        },
+                        {
+                            "id":  "14655_SPOT",
+                            "name":  "THORPE. Manta em tecido polar (180 g/m²) com alça removível"
+                        },
+                        {
+                            "id":  "14657_SPOT",
+                            "name":  "THORPE. Manta em tecido polar (180 g/m²) com alça removível"
+                        },
+                        {
+                            "id":  "14658_SPOT",
+                            "name":  "THORPE. Manta em tecido polar (180 g/m²) com alça removível"
+                        },
+                        {
+                            "id":  "14506_SPOT",
+                            "name":  "THRONE. Cadeira dobrável em 600D"
+                        },
+                        {
+                            "id":  "5189_XBZ",
+                            "name":  "TIGELA DUPLA"
+                        },
+                        {
+                            "id":  "5190_XBZ",
+                            "name":  "TIGELA DUPLA"
+                        },
+                        {
+                            "id":  "5191_XBZ",
+                            "name":  "TIGELA DUPLA"
+                        },
+                        {
+                            "id":  "6407_XBZ",
+                            "name":  "TRITURADOR DE TEMPERO"
+                        },
+                        {
+                            "id":  "7780_XBZ",
+                            "name":  "TUBO LED AZUL"
+                        },
+                        {
+                            "id":  "7588_XBZ",
+                            "name":  "TUBO LED COLORIDO"
+                        },
+                        {
+                            "id":  "10300_XBZ",
+                            "name":  "TUBO SANFONADO COM LED"
+                        },
+                        {
+                            "id":  "18813_SPOT",
+                            "name":  "ULER. Porta celular para carro em ABS"
+                        },
+                        {
+                            "id":  "429_ASIA",
+                            "name":  "Umidificador"
+                        },
+                        {
+                            "id":  "430_ASIA",
+                            "name":  "Umidificador"
+                        },
+                        {
+                            "id":  "431_ASIA",
+                            "name":  "Umidificador"
+                        },
+                        {
+                            "id":  "432_ASIA",
+                            "name":  "Umidificador"
+                        },
+                        {
+                            "id":  "2365_XBZ",
+                            "name":  "UMIDIFICADOR C/ LED"
+                        },
+                        {
+                            "id":  "2366_XBZ",
+                            "name":  "UMIDIFICADOR C/ LED"
+                        },
+                        {
+                            "id":  "4497_XBZ",
+                            "name":  "UMIDIFICADOR COM LED"
+                        },
+                        {
+                            "id":  "4498_XBZ",
+                            "name":  "UMIDIFICADOR COM LED"
+                        },
+                        {
+                            "id":  "8744_XBZ",
+                            "name":  "UMIDIFICADOR DE AR COM LED"
+                        },
+                        {
+                            "id":  "8745_XBZ",
+                            "name":  "UMIDIFICADOR DE AR COM LED"
+                        },
+                        {
+                            "id":  "8746_XBZ",
+                            "name":  "UMIDIFICADOR DE AR COM LED"
+                        },
+                        {
+                            "id":  "8747_XBZ",
+                            "name":  "UMIDIFICADOR DE AR COM LED"
+                        },
+                        {
+                            "id":  "9054_XBZ",
+                            "name":  "URSINHO ANTIESTRESSE"
+                        },
+                        {
+                            "id":  "622_XBZ",
+                            "name":  "VELUDO COSTURADO P/1PÇ"
+                        },
+                        {
+                            "id":  "7884_XBZ",
+                            "name":  "VENTOSA PARA CELULAR"
+                        },
+                        {
+                            "id":  "7885_XBZ",
+                            "name":  "VENTOSA PARA CELULAR"
+                        },
+                        {
+                            "id":  "7886_XBZ",
+                            "name":  "VENTOSA PARA CELULAR"
+                        },
+                        {
+                            "id":  "7887_XBZ",
+                            "name":  "VENTOSA PARA CELULAR"
+                        },
+                        {
+                            "id":  "8458_XBZ",
+                            "name":  "VENTOSA PARA CELULAR"
+                        },
+                        {
+                            "id":  "9066_XBZ",
+                            "name":  "VENTOSA PARA CELULAR"
+                        },
+                        {
+                            "id":  "9067_XBZ",
+                            "name":  "VENTOSA PARA CELULAR"
+                        },
+                        {
+                            "id":  "17067_XBZ",
+                            "name":  "VENTOSA PARA CELULAR"
+                        },
+                        {
+                            "id":  "14442_SPOT",
+                            "name":  "WALLIS. Porta celular para carro em ABS"
+                        },
+                        {
+                            "id":  "14384_SPOT",
+                            "name":  "WIGNER. Bateria portátil em ABS 100% reciclado (4\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "14385_SPOT",
+                            "name":  "WIGNER. Bateria portátil em ABS 100% reciclado (4\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "14386_SPOT",
+                            "name":  "WIGNER. Bateria portátil em ABS 100% reciclado (4\u0027000 mAh)"
+                        },
+                        {
+                            "id":  "14619_SPOT",
+                            "name":  "YELLOWSTONE. Colete de alta visibilidade em poliéster"
+                        },
+                        {
+                            "id":  "14620_SPOT",
+                            "name":  "YELLOWSTONE. Colete de alta visibilidade em poliéster"
+                        },
+                        {
+                            "id":  "18814_SPOT",
+                            "name":  "ZACK 7\u00272. Bateria portátil em alumínio e bateria em lítio 7\u0027200 mAh"
+                        }
+                    ]
+}

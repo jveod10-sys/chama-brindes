@@ -1,0 +1,44 @@
+[
+    {
+        "src":  "assets/images/catalogo/SM_copo-termico-em-aco-inox-amarelo-claro-450-ml_IC-03406_3.JPG",
+        "valid":  true,
+        "width":  600,
+        "height":  600,
+        "sha256":  "EF51BC69F55588A2B0AEF485BE1975530584D20F2553FD4EE6AE6D272B0DED82"
+    },
+    {
+        "src":  "assets/images/catalogo/SM_copo-termico-em-aco-inox-azul-claro-450-ml_IC-03403_3.JPG",
+        "valid":  true,
+        "width":  600,
+        "height":  600,
+        "sha256":  "DF05016980B3BADEDC3CF7A5CECF0E48A866D1FDC8E7BF8EE65C395E60E7D235"
+    },
+    {
+        "src":  "assets/images/catalogo/SM_copo-termico-em-aco-inox-preto-450-ml_IC-03401_3.JPG",
+        "valid":  true,
+        "width":  600,
+        "height":  600,
+        "sha256":  "D7AC89AA6F6304D2646C77AFB8B35A39E4996D06470A0BD419429FFE81C907C1"
+    },
+    {
+        "src":  "assets/images/catalogo/SM_copo-termico-em-aco-inox-verde-claro-450-ml_IC-03405_3.JPG",
+        "valid":  true,
+        "width":  600,
+        "height":  600,
+        "sha256":  "FB46724EB57D10274CEB6EE827EDF9B2D944D6E3520718D455942E30713EA1BD"
+    },
+    {
+        "src":  "assets/images/catalogo/SM_garrafa-dupla-camada-na-cor-branca-550-ml_IS-01550_0.JPG",
+        "valid":  true,
+        "width":  600,
+        "height":  600,
+        "sha256":  "161B2E56EB7B78E41A8BA5F2D2F130A31E5192D85121F704FD579D6D3AA18EC4"
+    },
+    {
+        "src":  "assets/images/catalogo/SM_garrafa-dupla-camada-na-cor-preta-550-ml_IS-01551_0.JPG",
+        "valid":  true,
+        "width":  600,
+        "height":  600,
+        "sha256":  "5611DF9CAD8DF5FF30EEBAA17E5C6AB813BF6F374E0666DE51C8BDA55A561ECC"
+    }
+]
