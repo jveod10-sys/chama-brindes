@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+
+        <title>Brinde Caneca Parede Dupla 450ml</title>
+<meta name='description' content='Caneca Parede Dupla 450ml.' />
+<meta name='keywords' content='caneca, parede dupla, inox, pp, polipropileno, tampa, 450ml, mug, stainless, plastic, polypropylene, double-walled, 15.2oz' />
+
+<meta property='fb:app_id' content='1734152619961461' />
+<meta property='og:type' content='website' />
+<meta property='og:title' content='Brinde Caneca Parede Dupla 450ml' />
+<meta property='og:description' content='Caneca Parede Dupla 450ml.' />
+<meta property='og:image' content='http://www.xbzbrindes.com.br/img/produtos/3/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg' />
+<meta property='og:url' content='https:/www.xbzbrindes.com.br/09198?z=030623' />
+<meta name='twitter:card' content='summary_large_image' />
+<meta name='twitter:image:width' content='610' />
+<meta name='twitter:image:height' content='610' />
+<meta property='og:image:width' content='1200' />
+<meta property='og:image:height' content='630' />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=1" />
+
+		<link href="/img/favicon.ico" type="image/x-icon" rel="icon">
+		<link href="/img/favicon.ico" type="image/x-icon" rel="shortcut icon">
+
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="/css/geral.css?x=030623" />
+
+        <link rel="stylesheet" type="text/css" href="/css/custom.css?x=030623" />
+        <link href="/css/swiper.min.css"  media="all" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  media="all" rel="stylesheet" />
+
+        <script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+        <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script-->
+
+		<script>
+			var path = '/';
+			var index = '/';
+		</script>
+	</head>
+	<body id="body" onload="carregar()">
+        
+        <header id="top" role="banner" >
+            <nav class="navbar navbar-site">
+                <div class="menu-desktop hidden-xs hidden-sm">
+                    <div class="container">
+                        <div class="nav nav-topo">
+                            <a href="/" class="navbar-site-brand"><img src="/img/home/logo.png?x=030623"></a>
+                        </div>
+                        <div  class="nav navbar-nav nav-home mobile-frase" style="text-align: right; ">  
+                        </div>
+                        <ul class="nav navbxar-nav naxvbar-center nav-home">
+                           
+                            <li class="login"><a href="http://www.xbzbrindes.com.br/cadastro" >Cadastro</a></li><li class="central"><a href="http://www.xbzbrindes.com.br/contato-xbz">Central de atendimento</a></li>
+                            <li class="download"><a href="/download">Download</a></li>
+                            <!-- <li class="carrinho"><a href="/pedido">Carrinho</a></li> -->
+                            <li class="busca dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" id="input_busca">Busca</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <form name="busca" action="/buscar" method="GET" class="form-inline" id='buscaform'>
+                                            <div class="form-group">
+                                                <input type="text" name="busca" id="input_busca2" class="form-control textbusca" value="" placeholder="Busque seus produtos aqui" />
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="image" src="/img/assets/lupa_1.png" id="btnbusca"/>
+                                            </div>
+                                        </form>
+                                    </li>
+                                    <script>
+                                            function carregar(){
+                                                if(document.getElementById("tamanho_string")){
+                                                    _w = document.getElementById("tamanho_string").offsetWidth;
+                                                    //document.getElementById("margem").offsetWidth = _w + 5;
+                                                    $("#margem").css("width", (_w + 35) + "px");
+                                                } 
+                                            }
+
+                                            $(document).ready(function(){
+                                                $("#input_busca").click(function(){
+                                                    setTimeout(function(){ $("#input_busca2").focus(); }, 500);
+                                                });
+
+                                                $('#buscaform').submit(function(e){
+                                                    busca = $('#input_busca2').val();
+
+                                                    e.preventDefault();
+                                                    $.ajax({
+                                                        url : index+"validaBusca",
+                                                        type : 'post',
+                                                        data : {'busca' : busca} ,
+                                                        success: function(out){
+                                                            if(out==1){
+                                                                window.location.href=index+"buscar?busca="+busca+"&x=0&y=0";
+                                                            }else{
+                                                                sweetAlert({
+                                                                    icon : 'error',
+                                                                    title : 'Ops...',
+                                                                    text : 'Não encontramos nenhum resultado para sua busca por "'+busca+' ". Aproveite e conheça toda nossa linha de produtos'
+                                                                });
+                                                            }
+                                                        }
+                                                    })
+                                                })
+                                                $('#buscaformmobile').submit(function(e){
+                                                    busca = $('#buscavaluemobile').val();
+
+                                                    e.preventDefault();
+                                                    $.ajax({
+                                                        url : index+"validaBusca",
+                                                        type : 'post',
+                                                        data : {'busca' : busca} ,
+                                                        success: function(out){
+                                                            if(out==1){
+                                                                window.location.href=index+"buscar?busca="+busca+"&x=0&y=0";
+                                                            }else{
+                                                                sweetAlert({
+                                                                    icon : 'error',
+                                                                    title : 'Ops...',
+                                                                    text : 'Não encontramos nenhum resultado para sua busca por "'+busca+' ". Aproveite e conheça toda nossa linha de produtos'
+                                                                });
+                                                            }
+                                                        }
+                                                    })
+                                                })
+
+                                            });
+                                                
+                                        </script>
+                                </ul>
+                            </li>
+                            <li class="skype"><!--a href="/cadastro">Skype</a-->
+                                <span style="color: #fff; font-weight: 100; text-transform: uppercase;position: absolute; bottom: 26px; width: 250px; float:right; font-size: 12px;">
+                                    <!-- Não atendemos cliente final. -->
+                                    Atendemos somente empresas estabelecidas no ramo promocional, especializadas na revenda de brindes.
+                                </span>
+                            </li></ul>
+                    </div>
+                </div>
+                <div class="menu-mobile visible-sm-block visible-xs" >
+                    <div class="container">
+                        <div class="text-center">
+                            <a href="/"><img src="/img/home/logo.png"></a>
+                        </div>
+                        <ul class="list-inline text-center">
+                            <li class="login"><a href="/cadastro">Login</a></li><!-- <li class="carrinho"><a href="/pedido">Carrinho</a></li> -->
+                            <li class="busca"><a href="#">Busca</a></li>
+                            <!--li class="skype"><a href="/cadastro">Skype</a></li-->
+                           <li class="download"><a href="/download" title="Download XBZ Brindes" target="_blank">Download</a></li>
+                           <li class="whatsapp"><a href="https://wa.me/551125651400" title="Whatsapp XBZ Brindes b" target="_blank">Whatsapp</a></li></ul>
+                        <div class="text-center form_busca_mobile" style="display: none">
+                            <form name="busca" action="/buscar" method="POST" class="form-inline" id='buscaformmobile'>
+                                <div class="form-group">
+                                    <input type="text" name="busca" class="form-control textbusca" value="" placeholder="Busque seus produtos aqui" id='buscavaluemobile'/>
+                                </div>
+                                <div class="form-group">
+                                    <input type="image" src="/img/assets/lupa_1.png" id="btnbusca"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+		<article>
+			<div class="erro escondido font_geral" id="d-erro" style="xdisplay:none" onClick="javascript:$('div.erro').switchClass('visivel','escondido',300);">
+				
+			</div>
+            <script>
+                var set_erro = function(){
+
+                    setTimeout(function(){
+                        $("div.erro").switchClass("escondido","visivel",300);
+                    },700);
+
+                    setTimeout(function(){
+                        $("div.erro").switchClass("visivel","escondido",300);
+                    },5000);
+                }
+            </script>
+            </article>
+		
+		<article class="miolo">		
+			<!-- <div class="top_site font_geral" style="text-align: center;background-color: #ff8225;padding:15px 0;position: relative; ">
+                <div class="container_top_site">
+                    <h2 style="color:#FFF;font-size:15px;font-weight: 400;line-height: 1.6em;">Informamos que tanto o departamento de vendas quanto o showroom funcionarão normalmente no feriado estadual de 09 de Julho.</h2>
+                </div>
+			</div> -->
+
+			<section class="detalhe font_geral">
+
+    <div id="menunav">
+    <div class="container">
+        <ul class="list-unstyled list-inline">
+            <li class="menuhome "><a href="/">Home</a></li>
+            <!-- <li class="menusobre "><a href="http://www.xbzbrindes.com.br/sobre">Sobre</a></li> -->
+            <li class="menulancamentos "><a href="/lancamentos">Lançamentos</a></li>
+            <li class="menuprodutos "><a href="http://www.xbzbrindes.com.br/brindes">Produtos</a></li>
+            <li class="menupontaestoque "><a href="/ponta-de-estoque">Ponta de estoque</a></li>
+			<li class="menuoutlet "><a href="/presentes">Presentes</a></li>            
+			<li class="menuedicaolimitada "><a href="/edicao_limitada">Edição limitada</a></li>            
+            
+			<!-- <li class="menuvideos "><a href="/videos">Vídeos</a></li> -->
+
+            <!--li class="menucontato "><a href="http://www.xbzbrindes.com.br/contato-xbz">Contato</a></li-->
+            <li class="menucadastro "><a href="http://www.xbzbrindes.com.br/cadastro">Cadastro</a></li>
+            <!-- <li class="menusac "><a href="http://www.xbzbrindes.com.br/sac-xbz">Sac</a></li> -->
+            <li class="menuempresagravacao "><a href="/institucional/Empresas-Gravacao">Empresas de Gravações</a></li>
+        </ul>
+    </div>
+</div>
+<div id="menunav2" style="display:none">
+    <div class="container">
+		<ul class="list-unstyled list-inline">
+            <li><a href="http://www.xbzbrindes.com.br/brindes/COPA-DO-MUNDO">***COPA DO MUNDO***</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/DIA-DAS-MAES">***DIA DAS MÃES***</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Verao">***Verão***</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Acessorios-p-Celular">Acessórios p/ Celular</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Acessorios-para-Carros">Acessórios para Carros</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Bar-e-Bebidas">Bar e Bebidas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Blocos-e-Cadernetas">Blocos e Cadernetas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Bolsas-Termicas">Bolsas Térmicas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Brinquedos">Brinquedos</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Caixas-de-Som">Caixas de Som</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Canecas">Canecas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Canetas">Canetas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Carregadores">Carregadores</a></li></ul><ul class="list-unstyled list-inline">
+            <li><a href="http://www.xbzbrindes.com.br/brindes/Casa">Casa</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Chaveiros">Chaveiros</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Conjuntos-Executivos">Conjuntos Executivos</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Copos">Copos</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Cozinha">Cozinha</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Cuidados-Pessoais">Cuidados Pessoais</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Escritorio">Escritório</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Espelhos">Espelhos</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Esporte-e-Jogos">Esporte e Jogos</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Estojos">Estojos</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Ferramentas">Ferramentas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Fones-de-Ouvido">Fones de Ouvido</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Guarda-Chuva">Guarda-Chuva</a></li></ul><ul class="list-unstyled list-inline">
+            <li><a href="http://www.xbzbrindes.com.br/brindes/Informatica-e-Telefonia">Informática e Telefonia</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Kit-Churrasco">Kit Churrasco</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Kit-Queijo">Kit Queijo</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Lanternas-e-Luminarias">Lanternas e Luminárias</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Lapis-e-Lapiseiras">Lápis e Lapiseiras</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Linha-Ecologica">Linha Ecológica</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Linha-Feminina">Linha Feminina</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Linha-Masculina">Linha Masculina</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Linha-Pet">Linha Pet</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Malas-Mochilas-Bolsas">Malas Mochilas Bolsas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Microfones">Microfones</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Moda-e-Estilo">Moda e Estilo</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Necessaires">Nécessaires</a></li></ul><ul class="list-unstyled list-inline">
+            <li><a href="http://www.xbzbrindes.com.br/brindes/Pastas">Pastas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Pen-Drives">Pen Drives</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Petisqueiras">Petisqueiras </a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Plaquinhas">Plaquinhas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Porta-Canetas">Porta Canetas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Porta-Retratos">Porta Retratos</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Porta-documentos-e-ID">Porta-documentos e ID</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Relogios">Relógios</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Sacolas-e-Sacochilas">Sacolas e Sacochilas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Squeezes-e-Garrafas">Squeezes e Garrafas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Tabuas">Tábuas</a></li><li><a href="http://www.xbzbrindes.com.br/brindes/Umidificadores">Umidificadores</a></li></ul></div>
+</div>
+
+<script>
+	function aparecemenu(){
+		$(".ul_menu_mobile").slideToggle();
+	}
+	
+	$(document).ready(function(){
+		// Mostra menu Mobile
+		$('#menu_mobile').bind('click',function(){
+			switch($('.menu_mobile').css('display')){
+				case 'none':
+					$('.menu_responsivo').css('width','100%');
+					$('.menu_mobile').slideToggle();
+					break;
+				case 'block':
+					$('.menu_mobile').slideToggle();
+					setTimeout( function(){ $('.menu_responsivo').css('width','auto'); },500);
+					break;
+			}
+		});
+		
+		$(".icon_busca_mobile").click( function(){
+			
+			switch($("#busca_mobile").css('display')){
+				case 'none':
+					$('.menu_responsivo').css('width','100%');
+					//$("#busca_mobile").slideToggle();
+					$("#busca_mobile").animate({width:'toggle'});
+					break;
+				case 'block':
+					//$("#busca_mobile").slideToggle();
+					$("#busca_mobile").animate({width:'toggle'});
+					setTimeout( function(){ $('.menu_responsivo').css('width','auto'); },500);
+					break;
+			}
+			
+		});
+	});
+
+</script>
+
+<!-- / -->
+<!-- / Object  -->
+
+    <div class="container detalhe_produto" id="detalhe_produto_">
+
+        <div class="alert" id="tmpMensagem" style="display: none"></div>
+
+        <div class="row">
+            <div class="col-md-7 col-sm-12 col-xs-12 img img_principal_det">
+               
+                <div class="caixa_360" style="cursor:pointer;" id='d_360'>
+                    <div id="vue-container"></div>            
+                </div>
+
+                <br clear="all">
+                <div class="detalhe-img">
+                    <a href="#" class="arrows visible-sm-block visible-xs js-seta-esquerda seta_mobile prev"><img src="/img/detalhe/seta-esquerda.png" /></a>
+                    <a href="#" class="arrows arrow-right visible-sm-block visible-xs js-seta-direita seta_mobile next"><img src="/img/detalhe/seta-direita.png" /></a>
+                    <!--a class="fancybox" href="/img/produtos/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg" id="imagem_fancy"><img data-indice="0" src="/timthumb/timthumb.php?src=/img/produtos/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg&w=514" id="imagem_principal" alt="Caneca Parede Dupla 450ml" title="Caneca Parede Dupla 450ml" width="100%;" /></a-->
+                    <a class="fancybox js-imagemprincipal" href="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg" id="imagem_fancy" data-indice="0" rel="fancybox_item" title="09198 - Caneca Parede Dupla 450ml">
+                        <!--img data-indice="0" src="/img/produtos/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg" id="imagem_principal" alt="Caneca Parede Dupla 450ml" title="Caneca Parede Dupla 450ml" width="100%;" /-->
+                        <img class='media-object'  data-original='/img/produtos/3/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg' data-src='/img/produtos/3/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg'  data-src1='/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d1-1775672878.jpg'  data-src2='/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d2-1775672879.jpg'  data-src3='/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d3-1775672879.jpg'  data-src4='/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d4-1775672879.jpg'  data-src5='/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d5-1775675649.jpg'  data-src6='/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d6-1775675650.jpg'  data-src7='/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d7-1775672879.jpg'  src='/img/produtos/3/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg' data-indice='1' style='max-width:100%;' />
+                    </a>
+                    </div>
+                
+                <div class="min_detalhe_img">
+                    <a class="fancybox" href="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg" rel="fancybox_item" title="09198 - Caneca Parede Dupla 450ml">
+                        <img src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg" title="Caneca Parede Dupla 450ml" alt="Caneca Parede Dupla 450ml" class="link-detalhe img_detalhe js-detalheimg" data-indice='0' data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg" width="60px" height="60px" />
+                    </a><a class="fancybox" href="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d1-1775672878.jpg" rel="fancybox_item" title="09198 - Caneca Parede Dupla 450ml">
+                        <img src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d1-1775672878.jpg" title="Caneca Parede Dupla 450ml" alt="Caneca Parede Dupla 450ml" class="link-detalhe img_detalhe js-detalheimg" data-indice='1' data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d1-1775672878.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d1-1775672878.jpg" width="60px" height="60px" />
+                    </a><a class="fancybox" href="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d2-1775672879.jpg" rel="fancybox_item" title="09198 - Caneca Parede Dupla 450ml">
+                        <img src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d2-1775672879.jpg" title="Caneca Parede Dupla 450ml" alt="Caneca Parede Dupla 450ml" class="link-detalhe img_detalhe js-detalheimg" data-indice='2' data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d2-1775672879.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d2-1775672879.jpg" width="60px" height="60px" />
+                    </a><a class="fancybox" href="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d3-1775672879.jpg" rel="fancybox_item" title="09198 - Caneca Parede Dupla 450ml">
+                        <img src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d3-1775672879.jpg" title="Caneca Parede Dupla 450ml" alt="Caneca Parede Dupla 450ml" class="link-detalhe img_detalhe js-detalheimg" data-indice='3' data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d3-1775672879.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d3-1775672879.jpg" width="60px" height="60px" />
+                    </a><a class="fancybox" href="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d4-1775672879.jpg" rel="fancybox_item" title="09198 - Caneca Parede Dupla 450ml">
+                        <img src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d4-1775672879.jpg" title="Caneca Parede Dupla 450ml" alt="Caneca Parede Dupla 450ml" class="link-detalhe img_detalhe js-detalheimg" data-indice='4' data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d4-1775672879.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d4-1775672879.jpg" width="60px" height="60px" />
+                    </a><a class="fancybox" href="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d5-1775675649.jpg" rel="fancybox_item" title="09198 - Caneca Parede Dupla 450ml">
+                        <img src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d5-1775675649.jpg" title="Caneca Parede Dupla 450ml" alt="Caneca Parede Dupla 450ml" class="link-detalhe img_detalhe js-detalheimg" data-indice='5' data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d5-1775675649.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d5-1775675649.jpg" width="60px" height="60px" />
+                    </a><a class="fancybox" href="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d6-1775675650.jpg" rel="fancybox_item" title="09198 - Caneca Parede Dupla 450ml">
+                        <img src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d6-1775675650.jpg" title="Caneca Parede Dupla 450ml" alt="Caneca Parede Dupla 450ml" class="link-detalhe img_detalhe js-detalheimg" data-indice='6' data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d6-1775675650.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d6-1775675650.jpg" width="60px" height="60px" />
+                    </a><a class="fancybox" href="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d7-1775672879.jpg" rel="fancybox_item" title="09198 - Caneca Parede Dupla 450ml">
+                        <img src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d7-1775672879.jpg" title="Caneca Parede Dupla 450ml" alt="Caneca Parede Dupla 450ml" class="link-detalhe img_detalhe js-detalheimg" data-indice='7' data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d7-1775672879.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-28090d7-1775672879.jpg" width="60px" height="60px" />
+                    </a>
+
+                    <div id="__bt360" style="display:none;">
+                        <span class="360 hidden-sm hidden-xs" style="cursor:pointer" title="Imagem 360">
+                            <img src="/img/360.jpg" class="link-detalhe img_detalhe js-detalheimg" alt="360">
+                        </span>
+                        <span class="div_360 visible-sm visible-xs">
+                            <img src="/img/360.jpg" class="img-responsive" alt="360" style="width:100%;max-width:58.8px;border:1px solid #ccc;">
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 col-sm-12 col-xs-12">
+                    <div class='hidden-xs hidden-sm'>
+                        </div>
+                <input type="hidden" id="urlshare" value="https://www.xbzbrindes.com.br/09198"/>		
+                <input type="hidden" id="urlshareimg" value="http://www.xbzbrindes.com.br/img/produtos/3/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg"/>
+                <form action="/pedido_add" onsubmit="javascript: if($('#item_cor_id').val()==''){ $('.cor_prod ul li').css('border-color','#f2ff2f;');alert('Selecione uma cor.');return false;}"method="POST">
+            
+                    <h1 id='item_referencia'>09198</h1>
+                    <p class="produto-nome">Caneca Parede Dupla 450ml</p>
+                    <div class="caracs">
+                        <div class="desc">
+                            <p class="desc-tit">Descrição: <span class="desc-sub my-desc-sub">Caneca de parede dupla, com interior em inox 304 e revestimento externo e alça em plástico polipropileno (PP). Com capacidade máxima de 450ml, possui tampa de pressão em AS com protetor deslizante para o bocal em PP.</span></p>
+                        </div>
+    
+                        
+
+				<div class='desc'>
+            <p class='desc-tit'>Altura<span class='desc-sub'>&nbsp;:&nbsp; 11,8 cm</span></p>
+        </div>
+				<div class='desc'>
+            <p class='desc-tit'>Largura<span class='desc-sub'>&nbsp;:&nbsp; 12,1 cm</span></p>
+        </div>
+				
+				
+				
+				
+				<div class='desc'>
+            <p class='desc-tit'>Diametro<span class='desc-sub'>&nbsp;:&nbsp; Sem tampa 8 cm</span></p>
+        </div>
+				
+				
+				<div class='desc'>
+            <p class='desc-tit'>Medidas aproximadas para gravação<span class='desc-sub'>&nbsp;(CxL):&nbsp; 8 cm x 7 cm </span></p>
+        </div>
+				
+				<div class='desc'>
+            <p class='desc-tit'>Peso aproximado<span class='desc-sub'>&nbsp;(g):&nbsp; 184</span></p>
+        </div>
+				
+		
+                    </div>
+
+                    <input type="hidden" value="1" name="add_item" />
+                    <input type="hidden" value="28090" id="item_id" name="item_id" />
+                    <input type="hidden" value="" id="item_cor_id" name="cor_id" />
+                    <input type="hidden" value="e9lj3j8mmo22bf510m8jo8sccr" name="token" />
+                    <div class="form_qtd" >
+
+                        <div class="conteudo_cor_ref_descricao" style="position:relative">
+    <div class="cor_ref_descricao">
+
+        <div class="cor_prod" style="display:table; border-collapse:collapse;empty-cells: show;">
+            <ul ><li style="padding:5px;"><img src="/img/cores/AZUL ESCURO.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-AZUL-ESCURO-28092-1775756844.jpg" data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-AZUL-ESCURO-28092-1775756844.jpg" data-corid="3" data-itemid="28092" data-itemreferencia="09198-AZE" data-preco="0,00" alt="AZUL ESCURO" title="AZUL ESCURO" width="100%" class="cor imagem_cor js-corimgall js-corimg" style="border:1px solid transparent;box-shadow:4px 4px 4px #999;border: 1px solid #DDD;border-bottom-width:0;border-right-width:0;cursor:pointer;"/></li><li style="padding:5px;"><img src="/img/cores/BRANCO.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-BRANCO-28093-1775756844.jpg" data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-BRANCO-28093-1775756844.jpg" data-corid="5" data-itemid="28093" data-itemreferencia="09198-BCO" data-preco="0,00" alt="BRANCO" title="BRANCO" width="100%" class="cor imagem_cor js-corimgall js-corimg" style="border:1px solid transparent;box-shadow:4px 4px 4px #999;border: 1px solid #DDD;border-bottom-width:0;border-right-width:0;cursor:pointer;"/></li><li style="padding:5px;"><img src="/img/cores/CINZA.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-CINZA-28094-1775756844.jpg" data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-CINZA-28094-1775756844.jpg" data-corid="7" data-itemid="28094" data-itemreferencia="09198-CIN" data-preco="0,00" alt="CINZA" title="CINZA" width="100%" class="cor imagem_cor js-corimgall js-corimg" style="border:1px solid transparent;box-shadow:4px 4px 4px #999;border: 1px solid #DDD;border-bottom-width:0;border-right-width:0;cursor:pointer;"/></li><li style="padding:5px;"><img src="/img/cores/LILÁS.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-LILAS-28091-1775756844.jpg" data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-LILAS-28091-1775756844.jpg" data-corid="41" data-itemid="28091" data-itemreferencia="09198-LIL" data-preco="0,00" alt="LILÁS" title="LILÁS" width="100%" class="cor imagem_cor js-corimgall js-corimg" style="border:1px solid transparent;box-shadow:4px 4px 4px #999;border: 1px solid #DDD;border-bottom-width:0;border-right-width:0;cursor:pointer;"/></li></ul><ul ><li style="padding:5px;"><img src="/img/cores/PRETO.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-PRETO-28095-1775756845.jpg" data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-PRETO-28095-1775756845.jpg" data-corid="13" data-itemid="28095" data-itemreferencia="09198-PRE" data-preco="0,00" alt="PRETO" title="PRETO" width="100%" class="cor imagem_cor js-corimgall js-corimg" style="border:1px solid transparent;box-shadow:4px 4px 4px #999;border: 1px solid #DDD;border-bottom-width:0;border-right-width:0;cursor:pointer;"/></li><li style="padding:5px;"><img src="/img/cores/VERDE.jpg" data-src="/img/produtos/3/Caneca-Parede-Dupla-450ml-VERDE-28096-1775756845.jpg" data-timsrc="/img/produtos/3/Caneca-Parede-Dupla-450ml-VERDE-28096-1775756845.jpg" data-corid="18" data-itemid="28096" data-itemreferencia="09198-VD" data-preco="0,00" alt="VERDE" title="VERDE" width="100%" class="cor imagem_cor js-corimgall js-corimg" style="border:1px solid transparent;box-shadow:4px 4px 4px #999;border: 1px solid #DDD;border-bottom-width:0;border-right-width:0;cursor:pointer;"/></li><li style='border:none !important;cursor:default; '>&nbsp;</li> <li style='border:none !important;cursor:default; '>&nbsp;</li> </ul></div></div>
+</div>
+                            <br/>
+                            <p>Medidas, peso e tonalidades podem variar pois o mesmo modelo é produzido por diversos fabricantes.</p>
+                             <div class='desc'>
+                                <p class='desc-tit'>Veja mais brindes</p>
+                                <p class='desc-sub'>
+                                    <a href='http://www.xbzbrindes.com.br/brindes/Canecas'>Canecas</a>, <a href='http://www.xbzbrindes.com.br/brindes/Canecas/Parede-Dupla'>Parede Dupla</a>, <a href='http://www.xbzbrindes.com.br/brindes/Canecas/Termica'>Térmica</a>, <a href='http://www.xbzbrindes.com.br/brindes/Canecas/Inox'>Inox</a>
+                                </p>
+                            </div></div><br/>
+                    
+                    <ul class="redes-sociais">
+                        </ul>
+                    <div class='hidden-lg hidden-md'>
+                        </div>
+                    <ul class='redes-sociais'>
+                        <li class="face"><a href="#030623" class="js-fb-share"></a></li>
+                        <li class="email"><a href="#modalIndicar" data-toggle="modal"></a></li>
+                    </ul>
+                </form>
+            </div>
+
+            <div class="col-md-5 img img_principal_det" style="position:relative;display:none">
+                <br clear="all">
+                <div class="info_detalhe visible-xs visible-sm">
+                    <img src="/img/icons/info_detalhe.png" alt="Informações"/>
+                </div>
+                <div class="tooltip_info">
+                    <div class="info_">
+                        <div class="desc">
+                            <p class="desc-tit">Descrição:</p>
+                            <p class="desc-sub my-desc-sub">Caneca de parede dupla, com interior em inox 304 e revestimento externo e alça em plástico polipropileno (PP). Com capacidade máxima de 450ml, possui tampa de pressão em AS com protetor deslizante para o bocal em PP.</p>
+                        </div>
+                        
+
+				<div class='desc'>
+            <p class='desc-tit'>Altura<span class='desc-sub'>&nbsp;:&nbsp; 11,8 cm</span></p>
+        </div>
+				<div class='desc'>
+            <p class='desc-tit'>Largura<span class='desc-sub'>&nbsp;:&nbsp; 12,1 cm</span></p>
+        </div>
+				
+				
+				
+				
+				<div class='desc'>
+            <p class='desc-tit'>Diametro<span class='desc-sub'>&nbsp;:&nbsp; Sem tampa 8 cm</span></p>
+        </div>
+				
+				
+				<div class='desc'>
+            <p class='desc-tit'>Medidas aproximadas para gravação<span class='desc-sub'>&nbsp;(CxL):&nbsp; 8 cm x 7 cm </span></p>
+        </div>
+				
+				<div class='desc'>
+            <p class='desc-tit'>Peso aproximado<span class='desc-sub'>&nbsp;(g):&nbsp; 184</span></p>
+        </div>
+				
+		
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="detalhe_prod hidden-sm hidden-xs">	
+		
+
+			<div style="display:table; width:100%; margin-top:60px;" id="detalhe_produto">
+				<div class="descricao_prod">
+					<div class="conteudo_descricao">
+
+						<div class="rede_social">
+							<table cellspacing="0" border="0" >
+								<tr>
+									<td>
+										<a href="https://www.facebook.com/XBZBRINDES/" class="icon_rede rede_face js-fb-share" target="_blank"></a>
+									</td>
+									<td>
+										<a href="#" class="icon_rede rede_print pinterest" target="_blank"></a>
+									</td>
+									<td>
+										<a href="" class="rede_indique"></a>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<br clear="all"/>
+					</div>
+
+				</div>	
+
+				<br clear="all"/>
+			</div>
+		</form>
+	</div>
+	
+	<div class="indique_box" style="display: none">
+		<span onclick="javascript: $('.indique_box').fadeOut();">X</span>
+		<form method="POST" action="/indiqueproduto" id="form_indique">
+			<input type="hidden" name="item_id" value="28090" />
+			<label>E-mail:<input type="text" name="email" class="text_indique_email"/></label>
+			<br />
+			<label>Nome:<input type="text" name="nome" class="text_indique"/></label>
+			<br />
+			<label>Seu nome:<input type="text" name="remetente" /></label>
+			<br />
+			<input type="submit" value="indicar"  class="button"/>
+			<br clear="all"/>
+			<br clear="all"/>
+			<span class="msg_indique"></span>
+		</form>
+	</div>			
+    <!--DETALHE PRODUTO-->
+    <div class="page-header hidden-sm hidden-xs">
+        <div class="container">
+            <h1>Produtos relacionados</h1>
+        </div>
+    </div>
+
+	<!--PRODUTOS RELACIONADOS-->
+    <div class="relacionados hidden-sm hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 com-sm-6">
+                    <div class="thumbnail prod">
+    <div class="img-prod">
+        <a href="https://www.xbzbrindes.com.br/18657-"><img class='media-object js-detalhe  lazy '  data-original='/img/produtos/1/Caneca-Termica-450ml-PRETO-14404-1655820598.jpg' data-src='/img/produtos/1/Caneca-Termica-450ml-PRETO-14404-1655820598.jpg'  data-src1='/img/produtos/1/Caneca-Termica-450ml-14401d1-1655820639.jpg'   src='/img/produtos/1/Caneca-Termica-450ml-PRETO-14404-1655820598.jpg' data-indice='1' style='max-width:100%;' /></a>
+
+    </div>
+    <div class="caption">
+        <h3><a href="https://www.xbzbrindes.com.br/18657-">18657</a></h3>
+        <p><a href="https://www.xbzbrindes.com.br/18657-">Caneca Térmica 450ml.
+</a></p>
+        <div class="info-sem-ponta">&nbsp;</div></div>
+    </div>
+                </div><div class="col-lg-3 col-md-6 com-sm-6">
+                    <div class="thumbnail prod">
+    <div class="img-prod">
+        <a href="https://www.xbzbrindes.com.br/06061b"><img class='media-object js-detalhe  lazy '  data-original='/img/produtos/1/Caneca-Termica-350ml-PRETO-22505-1742579979.jpg' data-src='/img/produtos/1/Caneca-Termica-350ml-PRETO-22505-1742579979.jpg'  data-src1='/img/produtos/1/Caneca-Termica-350ml-22503d1-1742579978.jpg'   src='/img/produtos/1/Caneca-Termica-350ml-PRETO-22505-1742579979.jpg' data-indice='1' style='max-width:100%;' /></a>
+
+    </div>
+    <div class="caption">
+        <h3><a href="https://www.xbzbrindes.com.br/06061b">06061B</a></h3>
+        <p><a href="https://www.xbzbrindes.com.br/06061b">Caneca Térmica 350ml.</a></p>
+        <div class="info-sem-ponta">&nbsp;</div></div>
+    </div>
+                </div><div class="col-lg-3 col-md-6 com-sm-6">
+                    <div class="thumbnail prod">
+    <div class="img-prod">
+        <a href="https://www.xbzbrindes.com.br/18838"><img class='media-object js-detalhe  lazy '  data-original='/img/produtos/1/Caneca-Termica-com-Cortica-de-400ml-VERDE-20700-1727122921.jpg' data-src='/img/produtos/1/Caneca-Termica-com-Cortica-de-400ml-VERDE-20700-1727122921.jpg'  data-src1='/img/produtos/1/Caneca-Termica-com-Cortica-de-400ml-20694d1-1727122918.jpg'   src='/img/produtos/1/Caneca-Termica-com-Cortica-de-400ml-VERDE-20700-1727122921.jpg' data-indice='1' style='max-width:100%;' /></a>
+
+    </div>
+    <div class="caption">
+        <h3><a href="https://www.xbzbrindes.com.br/18838">18838</a></h3>
+        <p><a href="https://www.xbzbrindes.com.br/18838">Caneca Térmica 400ml.</a></p>
+        <div class="info-sem-ponta">&nbsp;</div></div>
+    </div>
+                </div><div class="col-lg-3 col-md-6 com-sm-6">
+                    <div class="thumbnail prod">
+    <div class="img-prod">
+        <a href="https://www.xbzbrindes.com.br/19015"><img class='media-object js-detalhe  lazy '  data-original='/img/produtos/1/Caneca-Plastica-375ml-VERMELHO-24409-1756394100.jpg' data-src='/img/produtos/1/Caneca-Plastica-375ml-VERMELHO-24409-1756394100.jpg'  data-src1='/img/produtos/1/Caneca-Plastica-375ml-24405d1-1756394099.jpg'   src='/img/produtos/1/Caneca-Plastica-375ml-VERMELHO-24409-1756394100.jpg' data-indice='1' style='max-width:100%;' /></a>
+
+    </div>
+    <div class="caption">
+        <h3><a href="https://www.xbzbrindes.com.br/19015">19015</a></h3>
+        <p><a href="https://www.xbzbrindes.com.br/19015">Caneca Plástica 375ml.</a></p>
+        <div class="info-sem-ponta">&nbsp;</div></div>
+    </div>
+                </div></div>
+        </div>
+    </div>
+	<!--PRODUTOS RELACIONADOS--><!--
+    produtos
+    produtos
+    
+    -->
+</section>
+
+<div class="modal fade" id="modalIndicar" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                <h4 class="modal-title">Indicar para um amigo</h4>
+            </div>
+            <div class="modal-body">
+                <div class="alert" id="indiquemsg" style="display: none"></div>
+                <form action="/indiqueproduto" method="post" class="form-indique js-input">
+                    <input type="hidden" name="item_id" value="28090">
+                    <div class="form-group">
+                        <label for="email">E-mail do seu amigo</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="E-mail do seu amigo">
+                    </div>
+                    <div class="form-group">
+                        <label for="nome">Nome do seu amigo</label>
+                        <input type="nome" class="form-control" name="nome" id="nome" placeholder="Nome do seu amigo">
+                    </div>
+                    <div class="form-group">
+                        <label for="remetente">Seu nome</label>
+                        <input type="remetente" class="form-control" name="remetente" id="remetente" placeholder="Seu nome">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-block btn-primary" onclick="$('.form-indique').submit();">Ok, enviar indicação</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SHARE - URL -->
+<input type="hidden" id="urlshare" value="https://www.xbzbrindes.com.br/09198"/>
+
+<!-- FACE -->
+<input type="hidden" id="face_title" value=""/>
+<input type="hidden" id="face_description" value=""/>
+<input type="hidden" id="face_imagem" value="http://www.xbzbrindes.com.br/img/produtos/3/Caneca-Parede-Dupla-450ml-28090-1775672692.jpg"/>
+
+<script>
+
+    $(document).ready(function(){
+
+        // Tooltip para mobile
+        $(".info_detalhe").click(function(){
+            $(".tooltip_info").toggle();
+        });
+
+        // Esqueci a senha
+        $('.form-indique').ajaxForm({
+            dataType: 'json'
+            ,success: function(out){
+                if(out.status){
+                    // $("#senhamsg").addClass('alert-success').html(out.msg).fadeIn();
+                    $('.form-indique .js-input').html('<div class="alert alert-success">'+out.msg+'</div>');
+                    $('.form-indique.js-input').html('<div class="alert alert-success">'+out.msg+'</div>');
+                    $('#modalIndicar .btn-primary').hide();
+                }
+                else {
+                    $('#modalIndicar .btn-primary').attr('disabled', false);
+                    $("#indiquemsg").addClass('alert-danger').html(out.msg).fadeIn();
+                }
+            }
+            ,error: function(out1, out2){
+                $('#modalIndicar .btn-primary').attr('disabled', false);
+                $("#indiquemsg").addClass('alert-danger').html('Erro: ' + out1 + ' - '.out2).fadeIn();
+            }
+            ,beforeSend: function(){
+                $('#modalIndicar .btn-primary').attr('disabled', true);
+                $("#indiquemsg").removeClass('alert-danger').removeClass('alert-success').html('').hide();
+            }
+        });
+
+    });
+</script>
+
+
+
+		</article>
+		
+        <div class="voltar_topo"></div>
+       <a href="https://wa.me/551125651400" target="_blank" title="Whatsapp XBZ Brindes" class="whatsapp-fixo"></a>
+
+        <footer class="footer" role="contentinfo" >
+        	<div class="ft-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <ul class="list-unstyled">
+                            <li class="foothome"><a href="/">Home</a></li>
+                            <li class="footendereco"><a href="/contato">Rua Antônio Pais, 90 - SP</a></li>
+                            <li class="footfone"><a href="/contato">(11) 2565-1400</a></li>
+                            <li class="footemail"><a href="/contato"><span class="__cf_email__" data-cfemail="66150705261e041c04140f080203154805090b480414">[email&#160;protected]</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-xs-12 col-sm-12">
+                        <ul class="list-unstyled">
+                            <li class="footrede footyoutube"><a href="https://www.youtube.com/channel/UCsjAG1g9Tx6pYRwMNKOGMDQ">#</a></li>
+                            <li class="footrede footface"><a href="https://www.facebook.com/XBZBRINDES/">#</a></li>
+                            <li class="footrede footinsta"><a href="https://www.instagram.com/xbzbrindes_/">#</a></li>
+                            <!--li class="footrede redes-sociais"><a href="https://www.facebook.com/XBZBRINDES/">Redes Sociais</a></li-->
+                        </ul>
+                    </div>
+                    <div class="col-xs-8 visible-xs">
+                    	<li class="politicas"><a href="/politica-site">Políticas do site</a></li>
+                	</div>
+                    <div class="col-xs-3 col-sm-2 hidden-sm hidden-xs" style="padding:0">
+                        <ul class="list-unstyled lista-links">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="http://www.xbzbrindes.com.br/sobre">Sobre</a></li>
+                            <li><a href="http://www.xbzbrindes.com.br/cadastro">Cadastro</a></li>
+                            <li><a href="http://www.xbzbrindes.com.br/contato-xbz">Contato</a></li>
+                            <li><a href="https://xbzbrindes.pandape.infojobs.com.br/">Trabalhe Conosco</a></li>
+                            <li><a href="http://www.xbzbrindes.com.br/sac-xbz">Sac</a></li>
+                            <li><a href="/download">Download</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3 col-sm-2 hidden-sm hidden-xs">
+                        <ul class="list-unstyled lista-links">
+                            <li><a href="/lancamentos">Lançamentos</a></li>
+                            <!-- <li><a href="/promocoes">Promoções</a></li> -->
+                            <li><a href="/ponta-de-estoque">Ponta de estoque</a></li>
+                            <li><a href="http://www.xbzbrindes.com.br/brindes">Produtos</a></li>
+                            <!-- <li><a href="/movimentacaoprodutos">Log de Produtos</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="col-xs-5 col-sm-2 hidden-sm hidden-xs">
+                        <ul class="list-unstyled lista-links-right">
+                            <li><a href="/institucional/Politicas-do-site">Políticas do site</a></li><li><a href="/institucional/Politica-de-entrega">Política de entrega</a></li><li><a href="/institucional/Garantia-de-produto">Garantia de produto</a></li><li><a href="/institucional/Suporte-tecnico">Suporte técnico</a></li><li><a href="/institucional/Devolucao-de-produto">Devolução de produto</a></li><li><a href="/institucional/Empresas-Gravacao">Empresas Gravação</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="ft-2">
+            	<div class="container">
+            		<div class="copyright">
+        				<p><strong>© 2020 XBZ Brindes </strong></p>
+        				<p>Todos os direitos reservados.</p>
+            		</div>
+            		<div class="desenvolvido">
+            			<p>Desenvolvimento: <a href="http://www.ajung.com.br/" target="_blank">A.Jung</a></p>
+            		</div>
+    			</div>
+            </div>
+        </footer>
+
+		<div class="modal fade" id="esqueciSenha" tabindex="-1" role="dialog" aria-labelledby="esqueciSenha">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                        <h4 class="modal-title">ESQUECEU SUA SENHA?</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert" id="senhamsg" style="display: none"></div>
+                        <form action="/senha" method="post" class="form-senha js-input">
+                            <input type="hidden" name="enviar" value="1" />
+                            <div class="form-group">
+                                <label for="email" class="control-label">Digite seu e-mail de cadastro:</label>
+                                <input type="text" name="email" class="form-control" value="" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-block btn-primary" onclick="$('.form-senha').submit();">ENVIAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalMensagem" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="lead">
+                            
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-block btn-primary" onclick="$('#modalMensagem').modal('hide');">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"-->
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" type="text/css" href="/js/jquery-ui-1.11.2/jquery-ui.min.css" />
+        <link rel="stylesheet" type="text/css" href="/js/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+        <link rel="stylesheet" type="text/css" href="/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="/js/jquery-ui-1.11.2/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.form.js"></script>
+        <script type="text/javascript" src="/js/jquery.maskedinput.min.js"></script>
+        <script type="text/javascript" src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script type="text/javascript" src="/js/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+        <script type="text/javascript" src="/js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <script type="text/javascript" src="/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+        <script type="text/javascript" src="/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+        <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js" async defer ></script>
+        <script type="text/javascript" src="/js/formata_validadcoes.js"></script>
+        <script type="text/javascript" src="/js/geral.js?x=030623"></script>
+        <script type="text/javascript" src="/js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="/js/lib/jquery.lazyload.js" ></script>
+        <script type="text/javascript" src="/js/swiper.min.js" ></script>
+
+        <script src="/js/360/spritespin.js" type="text/javascript"></script>
+        <!--script src="/js/360/vue.min.js" type="text/javascript"></script-->
+        <script src='https://unpkg.com/vue@2.5.16/dist/vue.js' type='text/javascript'></script>
+        <script>
+            var EMPRESA = 'XBZ Brindes';
+        </script>
+
+        <script type="text/javascript" src="/js/detalhe.js?v=2.2?x=2" ></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-91052440-1', 'auto');
+  ga('send', 'pageview');
+ 
+</script>
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=1528030670810551";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <script>
+
+            // $("img.lazy").lazyload();
+
+            $(document).ready(function(){
+
+                $("img.lazy").lazyload({
+                    // threshold : 200
+                    effect:"fadeIn"
+                    ,threshold:200
+                });
+
+                $("._tooltipe").tooltip();
+				
+				$(".fecha_cliente").bind('click',function(){
+					//$(".logo_cliente_logado").fadeOut();
+					$(".logo_cliente_logado").animate({width:'toggle'});
+				});
+
+				$(".l_logado").bind("click",function(){
+					$("#l_menu_cliente").slideToggle("slow");
+				});
+
+				$(".l_esqueceu_voltar").bind("click",function(){
+					$(".l_form_esqueci").fadeOut();
+				});
+				
+				$("#form_login").ajaxForm({
+					dataType:  "json",
+					beforeSubmit : function(){
+						$(".block_login .l_mensagem").fadeIn();
+						$(".block_login .l_mensagem").html("Carregando...");
+					},
+					success : function(out){
+						if(out[0]==0){
+							$(".block_login .l_mensagem").html(out[1]);
+							$(".block_login .l_mensagem").animate({"left":0},400);
+						}
+						if(out[0]==1){
+							$(".block_login .l_mensagem").html(out[1]);
+							$(".block_login .l_mensagem").animate({"left":0},400);
+							setTimeout(function(){location.reload();},1000);
+						}
+						setTimeout(function(){$(".block_login .l_mensagem").animate({"left":"100%"},300);},2500);
+					}
+				}); 
+
+				$(".voltar_topo").bind("click", function(){
+					$('html, body').animate({scrollTop:0}, 'slow');
+				});
+
+                // Esqueci a senha
+                $('.form-senha').ajaxForm({
+                    dataType: 'json'
+                    ,success: function(out){
+                        if(out.status){
+                            // $("#senhamsg").addClass('alert-success').html(out.msg).fadeIn();
+                            $('.form-senha .js-input').html('<div class="alert alert-success">'+out.msg+'</div>');
+                            $('.form-senha.js-input').html('<div class="alert alert-success">'+out.msg+'</div>');
+                            $('#esqueciSenha .btn-primary').hide();
+                        }
+                        else {
+                            $('#esqueciSenha .btn-primary').attr('disabled', false);
+                            $("#senhamsg").addClass('alert-danger').html(out.msg).fadeIn();
+                        }
+                    }
+                    ,error: function(out1, out2){
+                        $('#esqueciSenha .btn-primary').attr('disabled', false);
+                        $("#senhamsg").addClass('alert-danger').html('Erro: ' + out1 + ' - '.out2).fadeIn();
+                    }
+                    ,beforeSend: function(){
+                        $('#esqueciSenha .btn-primary').attr('disabled', true);
+                        $("#senhamsg").removeClass('alert-danger').removeClass('alert-success').html('').hide();
+                    }
+                });
+				
+				$(window).scroll(function() {
+					nScrollPosition = $( window ).scrollTop();
+					
+					if(nScrollPosition>=100){
+						// $( ".voltar_topo" ).css( "display", "block" );
+						 $( ".voltar_topo" ).fadeIn();
+					}else{
+						 //$( ".voltar_topo" ).css( "display", "none" );
+						 $( ".voltar_topo" ).fadeOut();
+					}
+				});
+
+                $('.menu-mobile .busca a').bind('click', function(){
+                    $('.form_busca_mobile').slideToggle();
+                });
+
+                $('.menu-mobile .dropdown-toggle').bind('click', function(){
+                    // alert(1);
+                    $('.menu-mobile .dropdown-menu').slideToggle();
+                });
+
+                });
+		</script>
+
+		
+
+        <!-- / Object  -->
+
+	<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ec086337dab4fa6',t:'MTc3NjE0Njc4Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"dc36a08a999c4185a4ea4f8183792fef","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
